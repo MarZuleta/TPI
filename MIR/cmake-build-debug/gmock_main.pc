@@ -1,9 +1,9 @@
-libdir=C:/Program Files (x86)/recuperacionInformacionMusical/lib
-includedir=C:/Program Files (x86)/recuperacionInformacionMusical/include
+libdir=/usr/local/lib
+includedir=/usr/local/include
 
 Name: gmock_main
 Description: GoogleMock (with main() function)
 Version: 1.9.0
 URL: https://github.com/google/googletest
-Libs: -L${libdir} -lgmock_main 
-Cflags: -I${includedir} -DGTEST_HAS_PTHREAD=0 
+Libs: -L${libdir} -lgmock_main -pthread
+Cflags: -I${includedir} -DGTEST_HAS_PTHREAD=1 -pthread
