@@ -70,9 +70,8 @@ void bajarCalidad(vector<audio> &as, int profundidad1, int profundidad2) {
 
 }
 
-void
-audiosSoftYHard(vector<audio> as, int profundidad, int longitud, int umbral, vector<audio> &soft, vector<audio> &hard) {
-
+void audiosSoftYHard(vector<audio> as, int profundidad, int longitud, int umbral, vector<audio> &soft, vector<audio> &hard) {
+    
 }
 
 void reemplazarSubAudio(audio &a, audio a1, audio a2, int profundidad) {

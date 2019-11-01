@@ -13,6 +13,27 @@ bool vectoresOrdenadosIguales(vector<int> vector1, vector<int> vector2){
     return true;
 }
 
+
+vector<audio> subAudiosDeLongitud (audio a, int longitud){
+    if (longitud >= a.size()){
+        return audio b;
+    }
+    int max = longitud -1;
+    int min= 0;
+    vector<audio> subAudio;
+    int j = 0;
+    while (max<a.size()){
+        for (int i = min; i <= max; ++i) {
+            subAudio[j].push_back(a[i]);
+        }
+        min++;
+        max++;
+        j++;
+    }
+    return subAudio;
+}
+
+
 bool todasSusFilasEnLaOtraMatriz(vector<vector<int> > mat1, vector<vector<int> > mat2) {
     bool res;
     
