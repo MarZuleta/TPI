@@ -40,9 +40,9 @@ audio replicar(audio a, int canal, int profundidad) {
 
 audio revertirAudio(audio a, int canal, int profundidad) {
     audio b;
-    for (int i = 0; i < (a.size()/canal); i++) {
+    for (int i = 0; i < (a.size() / canal); i++) {
         for (int j = 0; j < canal; ++j) {
-            b.push_back(a[a.size() - canal*(i+1) + j]);
+            b.push_back(a[a.size() - canal * (i + 1) + j]);
         }
     }
     return b;
@@ -55,30 +55,29 @@ void magnitudAbsolutaMaxima(audio a, int canal, int profundidad, vector<int> &ma
 audio redirigir(audio a, int canal, int profundidad) {
     if (canal == 1) {
         for (int i = 0; i < a.size(); i += 2) {
-            a[i + 1] = a[i+1] - a[i];
-            if (a[i+1] >= pow(2,(profundidad-1))){
-                a[i+1]= pow(2,profundidad-1) - 1;
+            a[i + 1] = a[i + 1] - a[i];
+            if (a[i + 1] >= pow(2, (profundidad - 1))) {
+                a[i + 1] = pow(2, profundidad - 1) - 1;
             }
-            if (a[i+1] < -pow(2,profundidad-1)){
-                a[i+1] = -pow(2,profundidad-1);
+            if (a[i + 1] < -pow(2, profundidad - 1)) {
+                a[i + 1] = -pow(2, profundidad - 1);
             }
         }
 
     } else {
         for (int i = 0; i < a.size(); i += 2) {
-            a[i] = a[i] - a[i+1];
-            if (a[i] >= pow(2,(profundidad-1))){
-                a[i]= pow(2,profundidad-1) - 1;
+            a[i] = a[i] - a[i + 1];
+            if (a[i] >= pow(2, (profundidad - 1))) {
+                a[i] = pow(2, profundidad - 1) - 1;
             }
-            if (a[i] < -pow(2,profundidad-1)){
-                a[i] = -pow(2,profundidad-1);
+            if (a[i] < -pow(2, profundidad - 1)) {
+                a[i] = -pow(2, profundidad - 1);
             }
         }
-        }
-
-    return a;
     }
 
+    return a;
+}
 
 
 void bajarCalidad(vector<audio> &as, int profundidad1, int profundidad2) {
@@ -86,11 +85,30 @@ void bajarCalidad(vector<audio> &as, int profundidad1, int profundidad2) {
 }
 
 void audiosSoftYHard(vector<audio> as, int profundidad, int longitud, int umbral, vector<audio> &soft, vector<audio> &hard) {
-    
+    for (int i = 0; i < as.size(); ++i) {
+        vector<audio> a = subAudiosDeLongitud(as[i], longitud);
+        int contador = 0;
+        for (int j = 0; j < a.size(); ++j) {
+            int k = 0;
+            int contador = 0;
+            while (k < a[j].size()) {
+                if (a[j][k] > umbral) {
+                    contador++;
+                }
+                k++;
+            }
+            if (contador == a[j].size()){
+                hard.push_back(as[i]);
+                j= a.size();
+                as.erase(as.begin() + i);
+            }
+        }
+    }
+    soft = as;
 }
 
 void reemplazarSubAudio(audio &a, audio a1, audio a2, int profundidad) {
-
+    
 }
 
 void maximosTemporales(audio a, int profundidad, vector<int> tiempos, vector<int> &maximos,
