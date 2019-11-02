@@ -55,16 +55,31 @@ void magnitudAbsolutaMaxima(audio a, int canal, int profundidad, vector<int> &ma
 audio redirigir(audio a, int canal, int profundidad) {
     if (canal == 1) {
         for (int i = 0; i < a.size(); i += 2) {
-            a[i + 1] = a[i] - a[i + 1];
+            a[i + 1] = a[i+1] - a[i];
+            if (a[i+1] >= pow(2,(profundidad-1))){
+                a[i+1]= pow(2,profundidad-1) - 1;
+            }
+            if (a[i+1] < -pow(2,profundidad-1)){
+                a[i+1] = -pow(2,profundidad-1);
+            }
         }
 
     } else {
         for (int i = 0; i < a.size(); i += 2) {
-            a[i] = a[i + 1] - a[i];
+            a[i] = a[i] - a[i+1];
+            if (a[i] >= pow(2,(profundidad-1))){
+                a[i]= pow(2,profundidad-1) - 1;
+            }
+            if (a[i] < -pow(2,profundidad-1)){
+                a[i] = -pow(2,profundidad-1);
+            }
         }
-    }
+        }
+
     return a;
-}
+    }
+
+
 
 void bajarCalidad(vector<audio> &as, int profundidad1, int profundidad2) {
 

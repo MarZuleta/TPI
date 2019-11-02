@@ -15,8 +15,9 @@ bool vectoresOrdenadosIguales(vector<int> vector1, vector<int> vector2){
 
 
 vector<audio> subAudiosDeLongitud (audio a, int longitud){
+    vector<audio> b;
     if (longitud >= a.size()){
-        return audio b;
+        return b;
     }
     int max = longitud -1;
     int min= 0;

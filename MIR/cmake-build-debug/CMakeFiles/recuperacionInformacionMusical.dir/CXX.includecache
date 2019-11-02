@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/mzuleta/TPI/MIR/auxiliares.h
+C:/Users/martin.000/TPI/MIR/auxiliares.h
 definiciones.h
-/home/mzuleta/TPI/MIR/definiciones.h
+C:/Users/martin.000/TPI/MIR/definiciones.h
 
-/home/mzuleta/TPI/MIR/definiciones.h
+C:/Users/martin.000/TPI/MIR/definiciones.h
 vector
 -
 tuple
@@ -18,15 +18,15 @@ tuple
 cmath
 -
 
-/home/mzuleta/TPI/MIR/solucion.cpp
+C:/Users/martin.000/TPI/MIR/solucion.cpp
 solucion.h
-/home/mzuleta/TPI/MIR/solucion.h
+C:/Users/martin.000/TPI/MIR/solucion.h
 auxiliares.h
-/home/mzuleta/TPI/MIR/auxiliares.h
+C:/Users/martin.000/TPI/MIR/auxiliares.h
 algorithm
 -
 
-/home/mzuleta/TPI/MIR/solucion.h
+C:/Users/martin.000/TPI/MIR/solucion.h
 definiciones.h
-/home/mzuleta/TPI/MIR/definiciones.h
+C:/Users/martin.000/TPI/MIR/definiciones.h
 
