@@ -1,0 +1,16 @@
+el programa funciona, escribe un .txt con el vector, falta modificarlo con el nombre void escribirAudio (audio a, string "nombre del .txt", canal)
+
+en algo le estoy pifiando cuando armo la funcion escribirAudio, 
+
+
+int main() {
+
+audio a = {1,2,3,4,5,6,7,8,9,10};
+int c = 3;
+ofstream fout;
+fout.open("audioTP.txt");
+fout << c << " ";
+for (int i = 0; i <= a.size()-1; i++){
+fout << a[i] << " ";
+
+}
