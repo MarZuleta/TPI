@@ -89,13 +89,11 @@ void audiosSoftYHard(vector<audio> as, int profundidad, int longitud, int umbral
         vector<audio> a = subAudiosDeLongitud(as[i], longitud);
         int contador = 0;
         for (int j = 0; j < a.size(); ++j) {
-            int k = 0;
             int contador = 0;
-            while (k < a[j].size()) {
+            for (int k = 0; k < a[j].size(); ++k) {
                 if (a[j][k] > umbral) {
                     contador++;
                 }
-                k++;
             }
             if (contador == a[j].size()){
                 hard.push_back(as[i]);
@@ -108,7 +106,33 @@ void audiosSoftYHard(vector<audio> as, int profundidad, int longitud, int umbral
 }
 
 void reemplazarSubAudio(audio &a, audio a1, audio a2, int profundidad) {
-    
+    vector<audio> subAudios = subAudiosDeLongitud(a, a1.size());
+    int aparicion = 0;
+    int indiceDeAparicion = 0;
+    audio aux;
+    for (int i = 0; i < subAudios.size(); ++i) {
+        if (subAudios[i]== a1){
+            aparicion++;
+            indiceDeAparicion = i;
+        }
+    }
+    if (aparicion>0){
+        for (int i = 0; i < a.size()-(subAudios[indiceDeAparicion].size()+indiceDeAparicion); ++i) {
+             aux.push_back(a[a.size()-i]); // Lo pongo al reves en aux
+        }
+        for (int i = 0; i < a.size()-(subAudios[indiceDeAparicion].size()+indiceDeAparicion); ++i) {
+            a.pop_back();
+        }
+        for (int j = 0; j < subAudios[indiceDeAparicion].size(); ++j) {
+            a.pop_back();
+        }
+        for (int k = 0; k < a2.size(); ++k) {
+            a.push_back(a2[k]);
+        }
+        for (int l = 0; l < aux.size(); ++l) {
+            a.push_back(aux[aux.size()-l]); // Y aca lo meto al reves para recuperar el orden
+        }
+    }
 }
 
 void maximosTemporales(audio a, int profundidad, vector<int> tiempos, vector<int> &maximos,

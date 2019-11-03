@@ -16,12 +16,14 @@ bool vectoresOrdenadosIguales(vector<int> vector1, vector<int> vector2){
 
 vector<audio> subAudiosDeLongitud (audio a, int longitud){
     vector<audio> b;
-    if (longitud >= a.size()){
+    if (longitud > a.size()){
         return b;
     }
     int max = longitud -1;
     int min= 0;
-    vector<audio> subAudio;
+    audio v;
+    int tamano = a.size()-longitud+1;
+    vector<audio> subAudio (tamano, v);
     int j = 0;
     while (max<a.size()){
         for (int i = min; i <= max; ++i) {
