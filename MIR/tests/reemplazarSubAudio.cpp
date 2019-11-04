@@ -15,3 +15,16 @@ TEST(reemplazarSubAudioTEST, unElementoYPresente){
 
     ASSERT_VECTOR(a, esperado);
 }
+
+TEST(reemplazarSubAudioTEST, variosElementosYPresente){
+    audio a = {1,2,3,4,5,6};
+    audio a1 = {3,4};
+    audio a2 = {7,8,9};
+    int profundidad = 5;
+    audio esperado = {1,2,7,8,9,5,6};
+
+    reemplazarSubAudio(a, a1, a2, profundidad);
+
+    ASSERT_VECTOR(a, esperado);
+}
+

@@ -6,7 +6,6 @@
 //template<typename T>
 bool vectoresOrdenadosIguales(vector<int> vector1, vector<int> vector2);
 vector<audio> subAudiosDeLongitud (audio a, int longitud);
-vector<pair<int, int>> intervalosDeTiempo (audio a, int tiempo);
 int maximoDeUnAudio (audio a);
 audio selectionSort(audio a);
 int buscarNoOutlierDerecha(audio a, int i, int percentil95);

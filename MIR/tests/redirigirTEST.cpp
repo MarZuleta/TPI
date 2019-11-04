@@ -12,3 +12,24 @@ TEST(redirigirTEST, canal1EnRango){
 
     ASSERT_VECTOR(redirigir(a, canal, profundidad), esperado);
 }
+
+
+
+TEST(redirigirTEST, OtroCanal1EnRango){
+    audio a = {50,2,-50,-5,-2,-10};
+    int canal = 1;
+    int profundidad = 6;
+    audio esperado = {50,-32,-50,31,-2,-8};
+
+    ASSERT_VECTOR(redirigir(a, canal, profundidad), esperado);
+}
+
+
+TEST(redirigirTEST, canal2EnRango){
+    audio a = {1,40,3,-40,-2,-10};
+    int canal = 2;
+    int profundidad = 6;
+    audio esperado = {-32,40,31,-40,8,-10};
+
+    ASSERT_VECTOR(redirigir(a, canal, profundidad), esperado);
+}

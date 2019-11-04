@@ -26,7 +26,6 @@ bool tieneProfundidadValida(audio a, int profundidad) {
 }
 
 
-
 vector<audio> subAudiosDeLongitud (audio a, int longitud){
     vector<audio> b;
     if (longitud > a.size()){
@@ -50,16 +49,6 @@ vector<audio> subAudiosDeLongitud (audio a, int longitud){
 }
 
 
-vector<pair<int, int>> intervalosDeTiempo (audio a, int tiempo){
-    vector<pair<int, int>> res;
-    for (int i = 0; i < a.size(); i+=tiempo) {
-        pair<int, int> intervalo;
-        intervalo.first = i;
-        intervalo.second = i + tiempo -1;
-        res.push_back(intervalo);
-    }
-    return res;
-}
 
 int maximoDeUnAudio (audio a){
     int max = 0;
@@ -83,7 +72,7 @@ audio selectionSort(audio a){
             }
         }
         res.push_back(min);
-        res.erase(res.begin() + posMin);
+        a.erase(a.begin() + posMin);
     }
     return res;
 }

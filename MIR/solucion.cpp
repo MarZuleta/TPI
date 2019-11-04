@@ -40,14 +40,12 @@ audio revertirAudio(audio a, int canal, int profundidad) {
 void magnitudAbsolutaMaxima(audio a, int canal, int profundidad, vector<int> &maximos, vector<int> &posicionesMaximos) {
     for (int i = 0; i < canal; ++i) {
         int max = 0;
-        int j = 0;
         int posMax = 0;
-        while (j < a.size()) {
+        for (int j = i; j < a.size(); j += canal) {
             if (abs(a[j]) > max) {
                 max = a[j];
                 posMax = j;
             }
-            j += canal;
         }
         maximos.push_back(max);
         posicionesMaximos.push_back(posMax);
@@ -125,19 +123,19 @@ void reemplazarSubAudio(audio &a, audio a1, audio a2, int profundidad) {
     }
     if (aparicion > 0) {
         for (int i = 0; i < a.size() - (subAudios[indiceDeAparicion].size() + indiceDeAparicion); ++i) {
-            aux.push_back(a[a.size() - i]); // Lo pongo al reves en aux
+            aux.push_back(a[a.size() - 1 - i]); // Lo pongo al reves en aux
         }
-        for (int i = 0; i < a.size() - (subAudios[indiceDeAparicion].size() + indiceDeAparicion); ++i) {
+        for (int i = 0; i < aux.size(); ++i) {
             a.pop_back();
         }
-        for (int j = 0; j < subAudios[indiceDeAparicion].size(); ++j) {
+        for (int j = 0; j < a1.size(); ++j) {
             a.pop_back();
         }
         for (int k = 0; k < a2.size(); ++k) {
             a.push_back(a2[k]);
         }
         for (int l = 0; l < aux.size(); ++l) {
-            a.push_back(aux[aux.size() - l]); // Y aca lo meto al reves para recuperar el orden
+            a.push_back(aux[aux.size() - 1 - l]); // Y aca lo meto al reves para recuperar el orden
         }
     }
 }
@@ -145,12 +143,14 @@ void reemplazarSubAudio(audio &a, audio a1, audio a2, int profundidad) {
 void maximosTemporales(audio a, int profundidad, vector<int> tiempos, vector<int> &maximos,
                        vector<pair<int, int> > &intervalos) {
     //Primero calculo los intervalos
-    for (int i = 0; i < tiempos.size(); ++i) {
-        vector<pair<int, int>> aux = intervalosDeTiempo(a, tiempos[i]);
-        for (int j = 0; j < aux.size(); ++j) {
-            intervalos.push_back(aux[j]);
+    for (int j = 0; j < tiempos.size(); ++j) {
+        for (int i = 0; i < a.size(); i+=tiempos[j]) {
+            pair<int, int> intervalo = {i, i + tiempos[i] -1};
+            intervalos.push_back(intervalo);
         }
     }
+
+
     //Y ahora calculo los maximos de esos intervalos
     for (int i = 0; i < intervalos.size(); ++i) {
         audio aux;
@@ -171,9 +171,9 @@ void limpiarAudio(audio &a, int profundidad, vector<int> &outliers) {
 
     if (a.size() != 1) {
         audio audioOrdenado = selectionSort(a);
-        int percentil95 = audioOrdenado[(int) (a.size() * 0.95)];
+        int percentil95 = audioOrdenado[(int) ((a.size() * 95)/100)];
         for (int i = 0; i < a.size(); ++i) {
-            if (a[i] >= percentil95) {
+            if (a[i] > percentil95) {
                 outliers.push_back(i);
             }
         }
