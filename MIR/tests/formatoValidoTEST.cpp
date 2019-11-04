@@ -11,3 +11,13 @@ TEST(formatoValidoTEST, longitudErronea){
 
     EXPECT_FALSE(formatoValido(a, canal, profundidad));
 }
+
+
+TEST(formatoValidoTEST, profundidadErronea_Test){
+    audio a = {1,2,3,4,5,10};
+    int canal = 3;
+    int profundidad = 4;
+
+    EXPECT_FALSE(formatoValido(a, canal, profundidad));
+}
+

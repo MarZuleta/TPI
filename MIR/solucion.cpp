@@ -4,17 +4,6 @@
 
 using namespace std;
 
-bool tieneProfundidadValida(audio a, int profundidad) {
-    int i = 0;
-    while (i < a.size()) {
-        if (((-2) ^ (profundidad - 1)) <= a[i] <= ((2 ^ (profundidad - 1)) - 1)) {
-            i++;
-        } else {
-            return false;
-        }
-    }
-    return true;
-}
 
 bool formatoValido(audio a, int canal, int profundidad) {
     if (canal > 0 && profundidad > 0 && a.size() > 0 && (a.size() % canal == 0)) {
@@ -166,8 +155,8 @@ void maximosTemporales(audio a, int profundidad, vector<int> tiempos, vector<int
     for (int i = 0; i < intervalos.size(); ++i) {
         audio aux;
         for (int j = intervalos[i].first; j <= intervalos[i].second; ++j) {
-            if (j>=a.size()){
-                aux.push_back(a[a.size()-1]);
+            if (j >= a.size()) {
+                aux.push_back(a[a.size() - 1]);
             } else {
                 aux.push_back(a[j]);
             }
@@ -179,7 +168,33 @@ void maximosTemporales(audio a, int profundidad, vector<int> tiempos, vector<int
 
 void limpiarAudio(audio &a, int profundidad, vector<int> &outliers) {
     //Primero calculo los outliers
-    
+
+    if (a.size() != 1) {
+        audio audioOrdenado = selectionSort(a);
+        int percentil95 = audioOrdenado[(int) (a.size() * 0.95)];
+        for (int i = 0; i < a.size(); ++i) {
+            if (a[i] >= percentil95) {
+                outliers.push_back(i);
+            }
+        }
+        if (outliers.size() > 0) {
+            for (int i = 0; i < outliers.size(); ++i) {
+                int noOutlierDerecha = buscarNoOutlierDerecha(a, outliers[i], percentil95);
+                int noOutlierIzquierda = buscarNoOutlierIzquierda(a, outliers[i], percentil95);
+                // Separo en los tres casos especificados
+                if ((noOutlierDerecha >= 0) && noOutlierIzquierda >= 0) {
+                    a[outliers[i]] = (a[noOutlierDerecha] + a[noOutlierIzquierda]) / 2;
+                }
+                if ((noOutlierDerecha >= 0) && (noOutlierIzquierda == -1)) {
+                    a[outliers[i]] = a[noOutlierDerecha];
+                }
+                if ((noOutlierDerecha == -1) && (noOutlierIzquierda >= 0)) {
+                    a[outliers[i]] = a[noOutlierIzquierda];
+                }
+            }
+        }
+    }
 }
+
 
 

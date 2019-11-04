@@ -13,6 +13,19 @@ bool vectoresOrdenadosIguales(vector<int> vector1, vector<int> vector2){
     return true;
 }
 
+bool tieneProfundidadValida(audio a, int profundidad) {
+    int i = 0;
+    while (i < a.size()) {
+        if (((-2) ^ (profundidad - 1)) <= a[i] <= ((2 ^ (profundidad - 1)) - 1)) {
+            i++;
+        } else {
+            return false;
+        }
+    }
+    return true;
+}
+
+
 
 vector<audio> subAudiosDeLongitud (audio a, int longitud){
     vector<audio> b;
@@ -57,6 +70,46 @@ int maximoDeUnAudio (audio a){
     }
     return max;
 }
+
+audio selectionSort(audio a){
+    audio res;
+    for (int i = 0; i < a.size(); ++i) {
+        int min = 0;
+        int posMin = 0;
+        for (int j = 0; j < a.size()-i; ++j) {
+            if (a[j]< min){
+                min = a[j];
+                posMin = j;
+            }
+        }
+        res.push_back(min);
+        res.erase(res.begin() + posMin);
+    }
+    return res;
+}
+
+
+int buscarNoOutlierDerecha(audio a, int i, int percentil95){
+    int noHayNoOutlier = -1;
+    for (int j = i + 1; j < a.size(); ++j) {
+        if (a[j]<percentil95){
+            return j;
+        }
+    }
+    return noHayNoOutlier;
+}
+
+
+int buscarNoOutlierIzquierda(audio a, int i, int percentil95){
+    int noHayNoOutlier = -1;
+    for (int j = i -1; j >= 0; j--) {
+        if (a[j]<percentil95){
+            return j;
+        }
+    }
+    return noHayNoOutlier;
+}
+
 
 
 bool todasSusFilasEnLaOtraMatriz(vector<vector<int> > mat1, vector<vector<int> > mat2) {
