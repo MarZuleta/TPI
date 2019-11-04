@@ -165,7 +165,7 @@ void maximosTemporales(audio a, int profundidad, vector<int> tiempos, vector<int
     //Y ahora calculo los maximos de esos intervalos
     for (int i = 0; i < intervalos.size(); ++i) {
         audio aux;
-        for (int j = intervalos[i].first; j < intervalos[i].second - intervalos[i].first + 1; ++j) {
+        for (int j = intervalos[i].first; j <= intervalos[i].second; ++j) {
             if (j>=a.size()){
                 aux.push_back(a[a.size()-1]);
             } else {
@@ -178,7 +178,6 @@ void maximosTemporales(audio a, int profundidad, vector<int> tiempos, vector<int
 }
 
 void limpiarAudio(audio &a, int profundidad, vector<int> &outliers) {
-
 
 }
 
