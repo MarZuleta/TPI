@@ -178,7 +178,8 @@ void maximosTemporales(audio a, int profundidad, vector<int> tiempos, vector<int
 }
 
 void limpiarAudio(audio &a, int profundidad, vector<int> &outliers) {
-
+    //Primero calculo los outliers
+    
 }
 
 

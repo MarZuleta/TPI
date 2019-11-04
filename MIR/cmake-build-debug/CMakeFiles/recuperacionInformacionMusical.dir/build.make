@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR"
+CMAKE_SOURCE_DIR = C:\Users\martin.000\TPI\MIR
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\martin.000\TPI\MIR\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/recuperacionInformacionMusical.dir/depend.make
@@ -59,184 +59,184 @@ include CMakeFiles/recuperacionInformacionMusical.dir/flags.make
 CMakeFiles/recuperacionInformacionMusical.dir/main.obj: CMakeFiles/recuperacionInformacionMusical.dir/flags.make
 CMakeFiles/recuperacionInformacionMusical.dir/main.obj: CMakeFiles/recuperacionInformacionMusical.dir/includes_CXX.rsp
 CMakeFiles/recuperacionInformacionMusical.dir/main.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/recuperacionInformacionMusical.dir/main.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\recuperacionInformacionMusical.dir\main.obj -c "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\martin.000\TPI\MIR\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/recuperacionInformacionMusical.dir/main.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\recuperacionInformacionMusical.dir\main.obj -c C:\Users\martin.000\TPI\MIR\main.cpp
 
 CMakeFiles/recuperacionInformacionMusical.dir/main.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/recuperacionInformacionMusical.dir/main.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\main.cpp" > CMakeFiles\recuperacionInformacionMusical.dir\main.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\martin.000\TPI\MIR\main.cpp > CMakeFiles\recuperacionInformacionMusical.dir\main.i
 
 CMakeFiles/recuperacionInformacionMusical.dir/main.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/recuperacionInformacionMusical.dir/main.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\main.cpp" -o CMakeFiles\recuperacionInformacionMusical.dir\main.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\martin.000\TPI\MIR\main.cpp -o CMakeFiles\recuperacionInformacionMusical.dir\main.s
 
 CMakeFiles/recuperacionInformacionMusical.dir/solucion.obj: CMakeFiles/recuperacionInformacionMusical.dir/flags.make
 CMakeFiles/recuperacionInformacionMusical.dir/solucion.obj: CMakeFiles/recuperacionInformacionMusical.dir/includes_CXX.rsp
 CMakeFiles/recuperacionInformacionMusical.dir/solucion.obj: ../solucion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/recuperacionInformacionMusical.dir/solucion.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\recuperacionInformacionMusical.dir\solucion.obj -c "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\solucion.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\martin.000\TPI\MIR\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/recuperacionInformacionMusical.dir/solucion.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\recuperacionInformacionMusical.dir\solucion.obj -c C:\Users\martin.000\TPI\MIR\solucion.cpp
 
 CMakeFiles/recuperacionInformacionMusical.dir/solucion.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/recuperacionInformacionMusical.dir/solucion.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\solucion.cpp" > CMakeFiles\recuperacionInformacionMusical.dir\solucion.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\martin.000\TPI\MIR\solucion.cpp > CMakeFiles\recuperacionInformacionMusical.dir\solucion.i
 
 CMakeFiles/recuperacionInformacionMusical.dir/solucion.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/recuperacionInformacionMusical.dir/solucion.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\solucion.cpp" -o CMakeFiles\recuperacionInformacionMusical.dir\solucion.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\martin.000\TPI\MIR\solucion.cpp -o CMakeFiles\recuperacionInformacionMusical.dir\solucion.s
 
 CMakeFiles/recuperacionInformacionMusical.dir/auxiliares.obj: CMakeFiles/recuperacionInformacionMusical.dir/flags.make
 CMakeFiles/recuperacionInformacionMusical.dir/auxiliares.obj: CMakeFiles/recuperacionInformacionMusical.dir/includes_CXX.rsp
 CMakeFiles/recuperacionInformacionMusical.dir/auxiliares.obj: ../auxiliares.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/recuperacionInformacionMusical.dir/auxiliares.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\recuperacionInformacionMusical.dir\auxiliares.obj -c "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\auxiliares.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\martin.000\TPI\MIR\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/recuperacionInformacionMusical.dir/auxiliares.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\recuperacionInformacionMusical.dir\auxiliares.obj -c C:\Users\martin.000\TPI\MIR\auxiliares.cpp
 
 CMakeFiles/recuperacionInformacionMusical.dir/auxiliares.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/recuperacionInformacionMusical.dir/auxiliares.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\auxiliares.cpp" > CMakeFiles\recuperacionInformacionMusical.dir\auxiliares.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\martin.000\TPI\MIR\auxiliares.cpp > CMakeFiles\recuperacionInformacionMusical.dir\auxiliares.i
 
 CMakeFiles/recuperacionInformacionMusical.dir/auxiliares.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/recuperacionInformacionMusical.dir/auxiliares.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\auxiliares.cpp" -o CMakeFiles\recuperacionInformacionMusical.dir\auxiliares.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\martin.000\TPI\MIR\auxiliares.cpp -o CMakeFiles\recuperacionInformacionMusical.dir\auxiliares.s
 
 CMakeFiles/recuperacionInformacionMusical.dir/tests/formatoValidoTEST.obj: CMakeFiles/recuperacionInformacionMusical.dir/flags.make
 CMakeFiles/recuperacionInformacionMusical.dir/tests/formatoValidoTEST.obj: CMakeFiles/recuperacionInformacionMusical.dir/includes_CXX.rsp
 CMakeFiles/recuperacionInformacionMusical.dir/tests/formatoValidoTEST.obj: ../tests/formatoValidoTEST.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/recuperacionInformacionMusical.dir/tests/formatoValidoTEST.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\recuperacionInformacionMusical.dir\tests\formatoValidoTEST.obj -c "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\tests\formatoValidoTEST.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\martin.000\TPI\MIR\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/recuperacionInformacionMusical.dir/tests/formatoValidoTEST.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\recuperacionInformacionMusical.dir\tests\formatoValidoTEST.obj -c C:\Users\martin.000\TPI\MIR\tests\formatoValidoTEST.cpp
 
 CMakeFiles/recuperacionInformacionMusical.dir/tests/formatoValidoTEST.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/recuperacionInformacionMusical.dir/tests/formatoValidoTEST.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\tests\formatoValidoTEST.cpp" > CMakeFiles\recuperacionInformacionMusical.dir\tests\formatoValidoTEST.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\martin.000\TPI\MIR\tests\formatoValidoTEST.cpp > CMakeFiles\recuperacionInformacionMusical.dir\tests\formatoValidoTEST.i
 
 CMakeFiles/recuperacionInformacionMusical.dir/tests/formatoValidoTEST.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/recuperacionInformacionMusical.dir/tests/formatoValidoTEST.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\tests\formatoValidoTEST.cpp" -o CMakeFiles\recuperacionInformacionMusical.dir\tests\formatoValidoTEST.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\martin.000\TPI\MIR\tests\formatoValidoTEST.cpp -o CMakeFiles\recuperacionInformacionMusical.dir\tests\formatoValidoTEST.s
 
 CMakeFiles/recuperacionInformacionMusical.dir/tests/replicarTEST.obj: CMakeFiles/recuperacionInformacionMusical.dir/flags.make
 CMakeFiles/recuperacionInformacionMusical.dir/tests/replicarTEST.obj: CMakeFiles/recuperacionInformacionMusical.dir/includes_CXX.rsp
 CMakeFiles/recuperacionInformacionMusical.dir/tests/replicarTEST.obj: ../tests/replicarTEST.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/recuperacionInformacionMusical.dir/tests/replicarTEST.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\recuperacionInformacionMusical.dir\tests\replicarTEST.obj -c "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\tests\replicarTEST.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\martin.000\TPI\MIR\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/recuperacionInformacionMusical.dir/tests/replicarTEST.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\recuperacionInformacionMusical.dir\tests\replicarTEST.obj -c C:\Users\martin.000\TPI\MIR\tests\replicarTEST.cpp
 
 CMakeFiles/recuperacionInformacionMusical.dir/tests/replicarTEST.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/recuperacionInformacionMusical.dir/tests/replicarTEST.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\tests\replicarTEST.cpp" > CMakeFiles\recuperacionInformacionMusical.dir\tests\replicarTEST.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\martin.000\TPI\MIR\tests\replicarTEST.cpp > CMakeFiles\recuperacionInformacionMusical.dir\tests\replicarTEST.i
 
 CMakeFiles/recuperacionInformacionMusical.dir/tests/replicarTEST.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/recuperacionInformacionMusical.dir/tests/replicarTEST.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\tests\replicarTEST.cpp" -o CMakeFiles\recuperacionInformacionMusical.dir\tests\replicarTEST.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\martin.000\TPI\MIR\tests\replicarTEST.cpp -o CMakeFiles\recuperacionInformacionMusical.dir\tests\replicarTEST.s
 
 CMakeFiles/recuperacionInformacionMusical.dir/tests/revertirAudioTEST.obj: CMakeFiles/recuperacionInformacionMusical.dir/flags.make
 CMakeFiles/recuperacionInformacionMusical.dir/tests/revertirAudioTEST.obj: CMakeFiles/recuperacionInformacionMusical.dir/includes_CXX.rsp
 CMakeFiles/recuperacionInformacionMusical.dir/tests/revertirAudioTEST.obj: ../tests/revertirAudioTEST.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/recuperacionInformacionMusical.dir/tests/revertirAudioTEST.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\recuperacionInformacionMusical.dir\tests\revertirAudioTEST.obj -c "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\tests\revertirAudioTEST.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\martin.000\TPI\MIR\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/recuperacionInformacionMusical.dir/tests/revertirAudioTEST.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\recuperacionInformacionMusical.dir\tests\revertirAudioTEST.obj -c C:\Users\martin.000\TPI\MIR\tests\revertirAudioTEST.cpp
 
 CMakeFiles/recuperacionInformacionMusical.dir/tests/revertirAudioTEST.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/recuperacionInformacionMusical.dir/tests/revertirAudioTEST.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\tests\revertirAudioTEST.cpp" > CMakeFiles\recuperacionInformacionMusical.dir\tests\revertirAudioTEST.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\martin.000\TPI\MIR\tests\revertirAudioTEST.cpp > CMakeFiles\recuperacionInformacionMusical.dir\tests\revertirAudioTEST.i
 
 CMakeFiles/recuperacionInformacionMusical.dir/tests/revertirAudioTEST.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/recuperacionInformacionMusical.dir/tests/revertirAudioTEST.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\tests\revertirAudioTEST.cpp" -o CMakeFiles\recuperacionInformacionMusical.dir\tests\revertirAudioTEST.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\martin.000\TPI\MIR\tests\revertirAudioTEST.cpp -o CMakeFiles\recuperacionInformacionMusical.dir\tests\revertirAudioTEST.s
 
 CMakeFiles/recuperacionInformacionMusical.dir/tests/magnitudAbsolutaMaximaTest.obj: CMakeFiles/recuperacionInformacionMusical.dir/flags.make
 CMakeFiles/recuperacionInformacionMusical.dir/tests/magnitudAbsolutaMaximaTest.obj: CMakeFiles/recuperacionInformacionMusical.dir/includes_CXX.rsp
 CMakeFiles/recuperacionInformacionMusical.dir/tests/magnitudAbsolutaMaximaTest.obj: ../tests/magnitudAbsolutaMaximaTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/recuperacionInformacionMusical.dir/tests/magnitudAbsolutaMaximaTest.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\recuperacionInformacionMusical.dir\tests\magnitudAbsolutaMaximaTest.obj -c "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\tests\magnitudAbsolutaMaximaTest.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\martin.000\TPI\MIR\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/recuperacionInformacionMusical.dir/tests/magnitudAbsolutaMaximaTest.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\recuperacionInformacionMusical.dir\tests\magnitudAbsolutaMaximaTest.obj -c C:\Users\martin.000\TPI\MIR\tests\magnitudAbsolutaMaximaTest.cpp
 
 CMakeFiles/recuperacionInformacionMusical.dir/tests/magnitudAbsolutaMaximaTest.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/recuperacionInformacionMusical.dir/tests/magnitudAbsolutaMaximaTest.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\tests\magnitudAbsolutaMaximaTest.cpp" > CMakeFiles\recuperacionInformacionMusical.dir\tests\magnitudAbsolutaMaximaTest.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\martin.000\TPI\MIR\tests\magnitudAbsolutaMaximaTest.cpp > CMakeFiles\recuperacionInformacionMusical.dir\tests\magnitudAbsolutaMaximaTest.i
 
 CMakeFiles/recuperacionInformacionMusical.dir/tests/magnitudAbsolutaMaximaTest.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/recuperacionInformacionMusical.dir/tests/magnitudAbsolutaMaximaTest.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\tests\magnitudAbsolutaMaximaTest.cpp" -o CMakeFiles\recuperacionInformacionMusical.dir\tests\magnitudAbsolutaMaximaTest.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\martin.000\TPI\MIR\tests\magnitudAbsolutaMaximaTest.cpp -o CMakeFiles\recuperacionInformacionMusical.dir\tests\magnitudAbsolutaMaximaTest.s
 
 CMakeFiles/recuperacionInformacionMusical.dir/tests/redirigirTEST.obj: CMakeFiles/recuperacionInformacionMusical.dir/flags.make
 CMakeFiles/recuperacionInformacionMusical.dir/tests/redirigirTEST.obj: CMakeFiles/recuperacionInformacionMusical.dir/includes_CXX.rsp
 CMakeFiles/recuperacionInformacionMusical.dir/tests/redirigirTEST.obj: ../tests/redirigirTEST.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/recuperacionInformacionMusical.dir/tests/redirigirTEST.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\recuperacionInformacionMusical.dir\tests\redirigirTEST.obj -c "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\tests\redirigirTEST.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\martin.000\TPI\MIR\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/recuperacionInformacionMusical.dir/tests/redirigirTEST.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\recuperacionInformacionMusical.dir\tests\redirigirTEST.obj -c C:\Users\martin.000\TPI\MIR\tests\redirigirTEST.cpp
 
 CMakeFiles/recuperacionInformacionMusical.dir/tests/redirigirTEST.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/recuperacionInformacionMusical.dir/tests/redirigirTEST.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\tests\redirigirTEST.cpp" > CMakeFiles\recuperacionInformacionMusical.dir\tests\redirigirTEST.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\martin.000\TPI\MIR\tests\redirigirTEST.cpp > CMakeFiles\recuperacionInformacionMusical.dir\tests\redirigirTEST.i
 
 CMakeFiles/recuperacionInformacionMusical.dir/tests/redirigirTEST.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/recuperacionInformacionMusical.dir/tests/redirigirTEST.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\tests\redirigirTEST.cpp" -o CMakeFiles\recuperacionInformacionMusical.dir\tests\redirigirTEST.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\martin.000\TPI\MIR\tests\redirigirTEST.cpp -o CMakeFiles\recuperacionInformacionMusical.dir\tests\redirigirTEST.s
 
 CMakeFiles/recuperacionInformacionMusical.dir/tests/bajarCalidad.obj: CMakeFiles/recuperacionInformacionMusical.dir/flags.make
 CMakeFiles/recuperacionInformacionMusical.dir/tests/bajarCalidad.obj: CMakeFiles/recuperacionInformacionMusical.dir/includes_CXX.rsp
 CMakeFiles/recuperacionInformacionMusical.dir/tests/bajarCalidad.obj: ../tests/bajarCalidad.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/recuperacionInformacionMusical.dir/tests/bajarCalidad.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\recuperacionInformacionMusical.dir\tests\bajarCalidad.obj -c "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\tests\bajarCalidad.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\martin.000\TPI\MIR\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/recuperacionInformacionMusical.dir/tests/bajarCalidad.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\recuperacionInformacionMusical.dir\tests\bajarCalidad.obj -c C:\Users\martin.000\TPI\MIR\tests\bajarCalidad.cpp
 
 CMakeFiles/recuperacionInformacionMusical.dir/tests/bajarCalidad.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/recuperacionInformacionMusical.dir/tests/bajarCalidad.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\tests\bajarCalidad.cpp" > CMakeFiles\recuperacionInformacionMusical.dir\tests\bajarCalidad.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\martin.000\TPI\MIR\tests\bajarCalidad.cpp > CMakeFiles\recuperacionInformacionMusical.dir\tests\bajarCalidad.i
 
 CMakeFiles/recuperacionInformacionMusical.dir/tests/bajarCalidad.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/recuperacionInformacionMusical.dir/tests/bajarCalidad.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\tests\bajarCalidad.cpp" -o CMakeFiles\recuperacionInformacionMusical.dir\tests\bajarCalidad.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\martin.000\TPI\MIR\tests\bajarCalidad.cpp -o CMakeFiles\recuperacionInformacionMusical.dir\tests\bajarCalidad.s
 
 CMakeFiles/recuperacionInformacionMusical.dir/tests/audiosSoftYHard.obj: CMakeFiles/recuperacionInformacionMusical.dir/flags.make
 CMakeFiles/recuperacionInformacionMusical.dir/tests/audiosSoftYHard.obj: CMakeFiles/recuperacionInformacionMusical.dir/includes_CXX.rsp
 CMakeFiles/recuperacionInformacionMusical.dir/tests/audiosSoftYHard.obj: ../tests/audiosSoftYHard.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/recuperacionInformacionMusical.dir/tests/audiosSoftYHard.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\recuperacionInformacionMusical.dir\tests\audiosSoftYHard.obj -c "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\tests\audiosSoftYHard.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\martin.000\TPI\MIR\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/recuperacionInformacionMusical.dir/tests/audiosSoftYHard.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\recuperacionInformacionMusical.dir\tests\audiosSoftYHard.obj -c C:\Users\martin.000\TPI\MIR\tests\audiosSoftYHard.cpp
 
 CMakeFiles/recuperacionInformacionMusical.dir/tests/audiosSoftYHard.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/recuperacionInformacionMusical.dir/tests/audiosSoftYHard.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\tests\audiosSoftYHard.cpp" > CMakeFiles\recuperacionInformacionMusical.dir\tests\audiosSoftYHard.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\martin.000\TPI\MIR\tests\audiosSoftYHard.cpp > CMakeFiles\recuperacionInformacionMusical.dir\tests\audiosSoftYHard.i
 
 CMakeFiles/recuperacionInformacionMusical.dir/tests/audiosSoftYHard.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/recuperacionInformacionMusical.dir/tests/audiosSoftYHard.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\tests\audiosSoftYHard.cpp" -o CMakeFiles\recuperacionInformacionMusical.dir\tests\audiosSoftYHard.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\martin.000\TPI\MIR\tests\audiosSoftYHard.cpp -o CMakeFiles\recuperacionInformacionMusical.dir\tests\audiosSoftYHard.s
 
 CMakeFiles/recuperacionInformacionMusical.dir/tests/reemplazarSubAudio.obj: CMakeFiles/recuperacionInformacionMusical.dir/flags.make
 CMakeFiles/recuperacionInformacionMusical.dir/tests/reemplazarSubAudio.obj: CMakeFiles/recuperacionInformacionMusical.dir/includes_CXX.rsp
 CMakeFiles/recuperacionInformacionMusical.dir/tests/reemplazarSubAudio.obj: ../tests/reemplazarSubAudio.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/recuperacionInformacionMusical.dir/tests/reemplazarSubAudio.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\recuperacionInformacionMusical.dir\tests\reemplazarSubAudio.obj -c "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\tests\reemplazarSubAudio.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\martin.000\TPI\MIR\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/recuperacionInformacionMusical.dir/tests/reemplazarSubAudio.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\recuperacionInformacionMusical.dir\tests\reemplazarSubAudio.obj -c C:\Users\martin.000\TPI\MIR\tests\reemplazarSubAudio.cpp
 
 CMakeFiles/recuperacionInformacionMusical.dir/tests/reemplazarSubAudio.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/recuperacionInformacionMusical.dir/tests/reemplazarSubAudio.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\tests\reemplazarSubAudio.cpp" > CMakeFiles\recuperacionInformacionMusical.dir\tests\reemplazarSubAudio.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\martin.000\TPI\MIR\tests\reemplazarSubAudio.cpp > CMakeFiles\recuperacionInformacionMusical.dir\tests\reemplazarSubAudio.i
 
 CMakeFiles/recuperacionInformacionMusical.dir/tests/reemplazarSubAudio.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/recuperacionInformacionMusical.dir/tests/reemplazarSubAudio.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\tests\reemplazarSubAudio.cpp" -o CMakeFiles\recuperacionInformacionMusical.dir\tests\reemplazarSubAudio.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\martin.000\TPI\MIR\tests\reemplazarSubAudio.cpp -o CMakeFiles\recuperacionInformacionMusical.dir\tests\reemplazarSubAudio.s
 
 CMakeFiles/recuperacionInformacionMusical.dir/tests/maximosTemporales.obj: CMakeFiles/recuperacionInformacionMusical.dir/flags.make
 CMakeFiles/recuperacionInformacionMusical.dir/tests/maximosTemporales.obj: CMakeFiles/recuperacionInformacionMusical.dir/includes_CXX.rsp
 CMakeFiles/recuperacionInformacionMusical.dir/tests/maximosTemporales.obj: ../tests/maximosTemporales.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/recuperacionInformacionMusical.dir/tests/maximosTemporales.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\recuperacionInformacionMusical.dir\tests\maximosTemporales.obj -c "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\tests\maximosTemporales.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\martin.000\TPI\MIR\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/recuperacionInformacionMusical.dir/tests/maximosTemporales.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\recuperacionInformacionMusical.dir\tests\maximosTemporales.obj -c C:\Users\martin.000\TPI\MIR\tests\maximosTemporales.cpp
 
 CMakeFiles/recuperacionInformacionMusical.dir/tests/maximosTemporales.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/recuperacionInformacionMusical.dir/tests/maximosTemporales.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\tests\maximosTemporales.cpp" > CMakeFiles\recuperacionInformacionMusical.dir\tests\maximosTemporales.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\martin.000\TPI\MIR\tests\maximosTemporales.cpp > CMakeFiles\recuperacionInformacionMusical.dir\tests\maximosTemporales.i
 
 CMakeFiles/recuperacionInformacionMusical.dir/tests/maximosTemporales.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/recuperacionInformacionMusical.dir/tests/maximosTemporales.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\tests\maximosTemporales.cpp" -o CMakeFiles\recuperacionInformacionMusical.dir\tests\maximosTemporales.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\martin.000\TPI\MIR\tests\maximosTemporales.cpp -o CMakeFiles\recuperacionInformacionMusical.dir\tests\maximosTemporales.s
 
 CMakeFiles/recuperacionInformacionMusical.dir/tests/limpiarAudio.obj: CMakeFiles/recuperacionInformacionMusical.dir/flags.make
 CMakeFiles/recuperacionInformacionMusical.dir/tests/limpiarAudio.obj: CMakeFiles/recuperacionInformacionMusical.dir/includes_CXX.rsp
 CMakeFiles/recuperacionInformacionMusical.dir/tests/limpiarAudio.obj: ../tests/limpiarAudio.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/recuperacionInformacionMusical.dir/tests/limpiarAudio.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\recuperacionInformacionMusical.dir\tests\limpiarAudio.obj -c "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\tests\limpiarAudio.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\martin.000\TPI\MIR\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/recuperacionInformacionMusical.dir/tests/limpiarAudio.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\recuperacionInformacionMusical.dir\tests\limpiarAudio.obj -c C:\Users\martin.000\TPI\MIR\tests\limpiarAudio.cpp
 
 CMakeFiles/recuperacionInformacionMusical.dir/tests/limpiarAudio.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/recuperacionInformacionMusical.dir/tests/limpiarAudio.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\tests\limpiarAudio.cpp" > CMakeFiles\recuperacionInformacionMusical.dir\tests\limpiarAudio.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\martin.000\TPI\MIR\tests\limpiarAudio.cpp > CMakeFiles\recuperacionInformacionMusical.dir\tests\limpiarAudio.i
 
 CMakeFiles/recuperacionInformacionMusical.dir/tests/limpiarAudio.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/recuperacionInformacionMusical.dir/tests/limpiarAudio.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\tests\limpiarAudio.cpp" -o CMakeFiles\recuperacionInformacionMusical.dir\tests\limpiarAudio.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\martin.000\TPI\MIR\tests\limpiarAudio.cpp -o CMakeFiles\recuperacionInformacionMusical.dir\tests\limpiarAudio.s
 
 # Object files for target recuperacionInformacionMusical
 recuperacionInformacionMusical_OBJECTS = \
@@ -275,7 +275,7 @@ recuperacionInformacionMusical_EXTERNAL_OBJECTS =
 ../recuperacionInformacionMusical.exe: CMakeFiles/recuperacionInformacionMusical.dir/linklibs.rsp
 ../recuperacionInformacionMusical.exe: CMakeFiles/recuperacionInformacionMusical.dir/objects1.rsp
 ../recuperacionInformacionMusical.exe: CMakeFiles/recuperacionInformacionMusical.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable ..\recuperacionInformacionMusical.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\martin.000\TPI\MIR\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable ..\recuperacionInformacionMusical.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\recuperacionInformacionMusical.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -288,6 +288,6 @@ CMakeFiles/recuperacionInformacionMusical.dir/clean:
 .PHONY : CMakeFiles/recuperacionInformacionMusical.dir/clean
 
 CMakeFiles/recuperacionInformacionMusical.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR" "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR" "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\cmake-build-debug" "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\cmake-build-debug" "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\cmake-build-debug\CMakeFiles\recuperacionInformacionMusical.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\martin.000\TPI\MIR C:\Users\martin.000\TPI\MIR C:\Users\martin.000\TPI\MIR\cmake-build-debug C:\Users\martin.000\TPI\MIR\cmake-build-debug C:\Users\martin.000\TPI\MIR\cmake-build-debug\CMakeFiles\recuperacionInformacionMusical.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/recuperacionInformacionMusical.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR
+# Install script for directory: C:/Users/martin.000/TPI/MIR
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/cmake-build-debug/lib/googletest-master/cmake_install.cmake")
+  include("C:/Users/martin.000/TPI/MIR/cmake-build-debug/lib/googletest-master/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/martin.000/TPI/MIR/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

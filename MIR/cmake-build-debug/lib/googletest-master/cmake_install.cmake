@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/lib/googletest-master
+# Install script for directory: C:/Users/martin.000/TPI/MIR/lib/googletest-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/cmake-build-debug/lib/googletest-master/googlemock/cmake_install.cmake")
+  include("C:/Users/martin.000/TPI/MIR/cmake-build-debug/lib/googletest-master/googlemock/cmake_install.cmake")
 
 endif()
 
