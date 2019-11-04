@@ -37,6 +37,27 @@ vector<audio> subAudiosDeLongitud (audio a, int longitud){
 }
 
 
+vector<pair<int, int>> intervalosDeTiempo (audio a, int tiempo){
+    vector<pair<int, int>> res;
+    for (int i = 0; i < a.size(); i+=tiempo) {
+        pair<int, int> intervalo;
+        intervalo.first = i;
+        intervalo.second = i + tiempo -1;
+        res.push_back(intervalo);
+    }
+    return res;
+}
+
+int maximoDeUnAudio (audio a){
+    int max = 0;
+    for (int i = 0; i < a.size(); ++i) {
+        if (a[i]>max){
+            max = a[i];
+        }
+    }
+    return max;
+}
+
 bool todasSusFilasEnLaOtraMatriz(vector<vector<int> > mat1, vector<vector<int> > mat2) {
     bool res;
     
