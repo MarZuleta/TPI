@@ -4,12 +4,12 @@
 
 using namespace std;
 
-TEST(limpiarAudioTEST, test){
+TEST(limpiarAudioTEST, audioSinOutliers){
     audio a = {1};
-    audio outliers = {1};
+    audio outliers;
     int profundidad = 6;
     audio audioEsperado = {1};
-    audio outliersEsperado = {1};
+    audio outliersEsperado;
 
     limpiarAudio(a, profundidad, outliers);
 

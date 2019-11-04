@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\martin.000\TPI\MIR
+CMAKE_SOURCE_DIR = "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\martin.000\TPI\MIR\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -125,14 +125,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\martin.000\TPI\MIR\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\martin.000\TPI\MIR\cmake-build-debug\CMakeFiles C:\Users\martin.000\TPI\MIR\cmake-build-debug\lib\googletest-master\googlemock\CMakeFiles\progress.marks
-	cd /d C:\Users\martin.000\TPI\MIR\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/googletest-master/googlemock/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\martin.000\TPI\MIR\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\martin.000\Desktop\TPIV3~1\TPI\TPI\MIR\CMAKE-~1 && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\cmake-build-debug\CMakeFiles" "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\cmake-build-debug\lib\googletest-master\googlemock\CMakeFiles\progress.marks"
+	cd /d C:\Users\martin.000\Desktop\TPIV3~1\TPI\TPI\MIR\CMAKE-~1 && $(MAKE) -f CMakeFiles\Makefile2 lib/googletest-master/googlemock/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\martin.000\Desktop\TPI V3\TPI\TPI\MIR\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\martin.000\TPI\MIR\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/googletest-master/googlemock/clean
+	cd /d C:\Users\martin.000\Desktop\TPIV3~1\TPI\TPI\MIR\CMAKE-~1 && $(MAKE) -f CMakeFiles\Makefile2 lib/googletest-master/googlemock/clean
 .PHONY : clean
 
 # The main clean target
@@ -142,22 +142,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\martin.000\TPI\MIR\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/googletest-master/googlemock/preinstall
+	cd /d C:\Users\martin.000\Desktop\TPIV3~1\TPI\TPI\MIR\CMAKE-~1 && $(MAKE) -f CMakeFiles\Makefile2 lib/googletest-master/googlemock/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\martin.000\TPI\MIR\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/googletest-master/googlemock/preinstall
+	cd /d C:\Users\martin.000\Desktop\TPIV3~1\TPI\TPI\MIR\CMAKE-~1 && $(MAKE) -f CMakeFiles\Makefile2 lib/googletest-master/googlemock/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\martin.000\TPI\MIR\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\martin.000\Desktop\TPIV3~1\TPI\TPI\MIR\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/rule:
-	cd /d C:\Users\martin.000\TPI\MIR\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/rule
+	cd /d C:\Users\martin.000\Desktop\TPIV3~1\TPI\TPI\MIR\CMAKE-~1 && $(MAKE) -f CMakeFiles\Makefile2 lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/rule
 .PHONY : lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -167,12 +167,12 @@ gmock_main: lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # fast build rule for target.
 gmock_main/fast:
-	cd /d C:\Users\martin.000\TPI\MIR\cmake-build-debug && $(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock_main.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build
+	cd /d C:\Users\martin.000\Desktop\TPIV3~1\TPI\TPI\MIR\CMAKE-~1 && $(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock_main.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build
 .PHONY : gmock_main/fast
 
 # Convenience name for target.
 lib/googletest-master/googlemock/CMakeFiles/gmock.dir/rule:
-	cd /d C:\Users\martin.000\TPI\MIR\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/googletest-master/googlemock/CMakeFiles/gmock.dir/rule
+	cd /d C:\Users\martin.000\Desktop\TPIV3~1\TPI\TPI\MIR\CMAKE-~1 && $(MAKE) -f CMakeFiles\Makefile2 lib/googletest-master/googlemock/CMakeFiles/gmock.dir/rule
 .PHONY : lib/googletest-master/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ gmock: lib/googletest-master/googlemock/CMakeFiles/gmock.dir/rule
 
 # fast build rule for target.
 gmock/fast:
-	cd /d C:\Users\martin.000\TPI\MIR\cmake-build-debug && $(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build
+	cd /d C:\Users\martin.000\Desktop\TPIV3~1\TPI\TPI\MIR\CMAKE-~1 && $(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build
 .PHONY : gmock/fast
 
 __/googletest/src/gtest-all.obj: __/googletest/src/gtest-all.cc.obj
@@ -191,8 +191,8 @@ __/googletest/src/gtest-all.obj: __/googletest/src/gtest-all.cc.obj
 
 # target to build an object file
 __/googletest/src/gtest-all.cc.obj:
-	cd /d C:\Users\martin.000\TPI\MIR\cmake-build-debug && $(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock_main.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.obj
-	cd /d C:\Users\martin.000\TPI\MIR\cmake-build-debug && $(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.obj
+	cd /d C:\Users\martin.000\Desktop\TPIV3~1\TPI\TPI\MIR\CMAKE-~1 && $(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock_main.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.obj
+	cd /d C:\Users\martin.000\Desktop\TPIV3~1\TPI\TPI\MIR\CMAKE-~1 && $(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.obj
 .PHONY : __/googletest/src/gtest-all.cc.obj
 
 __/googletest/src/gtest-all.i: __/googletest/src/gtest-all.cc.i
@@ -201,8 +201,8 @@ __/googletest/src/gtest-all.i: __/googletest/src/gtest-all.cc.i
 
 # target to preprocess a source file
 __/googletest/src/gtest-all.cc.i:
-	cd /d C:\Users\martin.000\TPI\MIR\cmake-build-debug && $(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock_main.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.i
-	cd /d C:\Users\martin.000\TPI\MIR\cmake-build-debug && $(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.i
+	cd /d C:\Users\martin.000\Desktop\TPIV3~1\TPI\TPI\MIR\CMAKE-~1 && $(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock_main.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.i
+	cd /d C:\Users\martin.000\Desktop\TPIV3~1\TPI\TPI\MIR\CMAKE-~1 && $(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.i
 .PHONY : __/googletest/src/gtest-all.cc.i
 
 __/googletest/src/gtest-all.s: __/googletest/src/gtest-all.cc.s
@@ -211,8 +211,8 @@ __/googletest/src/gtest-all.s: __/googletest/src/gtest-all.cc.s
 
 # target to generate assembly for a file
 __/googletest/src/gtest-all.cc.s:
-	cd /d C:\Users\martin.000\TPI\MIR\cmake-build-debug && $(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock_main.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.s
-	cd /d C:\Users\martin.000\TPI\MIR\cmake-build-debug && $(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.s
+	cd /d C:\Users\martin.000\Desktop\TPIV3~1\TPI\TPI\MIR\CMAKE-~1 && $(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock_main.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.s
+	cd /d C:\Users\martin.000\Desktop\TPIV3~1\TPI\TPI\MIR\CMAKE-~1 && $(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.s
 .PHONY : __/googletest/src/gtest-all.cc.s
 
 src/gmock-all.obj: src/gmock-all.cc.obj
@@ -221,8 +221,8 @@ src/gmock-all.obj: src/gmock-all.cc.obj
 
 # target to build an object file
 src/gmock-all.cc.obj:
-	cd /d C:\Users\martin.000\TPI\MIR\cmake-build-debug && $(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock_main.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.obj
-	cd /d C:\Users\martin.000\TPI\MIR\cmake-build-debug && $(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj
+	cd /d C:\Users\martin.000\Desktop\TPIV3~1\TPI\TPI\MIR\CMAKE-~1 && $(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock_main.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.obj
+	cd /d C:\Users\martin.000\Desktop\TPIV3~1\TPI\TPI\MIR\CMAKE-~1 && $(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj
 .PHONY : src/gmock-all.cc.obj
 
 src/gmock-all.i: src/gmock-all.cc.i
@@ -231,8 +231,8 @@ src/gmock-all.i: src/gmock-all.cc.i
 
 # target to preprocess a source file
 src/gmock-all.cc.i:
-	cd /d C:\Users\martin.000\TPI\MIR\cmake-build-debug && $(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock_main.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.i
-	cd /d C:\Users\martin.000\TPI\MIR\cmake-build-debug && $(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i
+	cd /d C:\Users\martin.000\Desktop\TPIV3~1\TPI\TPI\MIR\CMAKE-~1 && $(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock_main.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.i
+	cd /d C:\Users\martin.000\Desktop\TPIV3~1\TPI\TPI\MIR\CMAKE-~1 && $(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i
 .PHONY : src/gmock-all.cc.i
 
 src/gmock-all.s: src/gmock-all.cc.s
@@ -241,8 +241,8 @@ src/gmock-all.s: src/gmock-all.cc.s
 
 # target to generate assembly for a file
 src/gmock-all.cc.s:
-	cd /d C:\Users\martin.000\TPI\MIR\cmake-build-debug && $(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock_main.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.s
-	cd /d C:\Users\martin.000\TPI\MIR\cmake-build-debug && $(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s
+	cd /d C:\Users\martin.000\Desktop\TPIV3~1\TPI\TPI\MIR\CMAKE-~1 && $(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock_main.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.s
+	cd /d C:\Users\martin.000\Desktop\TPIV3~1\TPI\TPI\MIR\CMAKE-~1 && $(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s
 .PHONY : src/gmock-all.cc.s
 
 src/gmock_main.obj: src/gmock_main.cc.obj
@@ -251,7 +251,7 @@ src/gmock_main.obj: src/gmock_main.cc.obj
 
 # target to build an object file
 src/gmock_main.cc.obj:
-	cd /d C:\Users\martin.000\TPI\MIR\cmake-build-debug && $(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock_main.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj
+	cd /d C:\Users\martin.000\Desktop\TPIV3~1\TPI\TPI\MIR\CMAKE-~1 && $(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock_main.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj
 .PHONY : src/gmock_main.cc.obj
 
 src/gmock_main.i: src/gmock_main.cc.i
@@ -260,7 +260,7 @@ src/gmock_main.i: src/gmock_main.cc.i
 
 # target to preprocess a source file
 src/gmock_main.cc.i:
-	cd /d C:\Users\martin.000\TPI\MIR\cmake-build-debug && $(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock_main.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
+	cd /d C:\Users\martin.000\Desktop\TPIV3~1\TPI\TPI\MIR\CMAKE-~1 && $(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock_main.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
 .PHONY : src/gmock_main.cc.i
 
 src/gmock_main.s: src/gmock_main.cc.s
@@ -269,7 +269,7 @@ src/gmock_main.s: src/gmock_main.cc.s
 
 # target to generate assembly for a file
 src/gmock_main.cc.s:
-	cd /d C:\Users\martin.000\TPI\MIR\cmake-build-debug && $(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock_main.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
+	cd /d C:\Users\martin.000\Desktop\TPIV3~1\TPI\TPI\MIR\CMAKE-~1 && $(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock_main.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
 .PHONY : src/gmock_main.cc.s
 
 # Help Target
@@ -306,6 +306,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\martin.000\TPI\MIR\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\martin.000\Desktop\TPIV3~1\TPI\TPI\MIR\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -2,11 +2,11 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="recuperacionInformacionMusical" targetName="gmock" />
       <config projectName="recuperacionInformacionMusical" targetName="gtest_main" />
-      <config projectName="recuperacionInformacionMusical" targetName="recuperacionInformacionMusical" />
       <config projectName="recuperacionInformacionMusical" targetName="gtest" />
       <config projectName="recuperacionInformacionMusical" targetName="gmock_main" />
+      <config projectName="recuperacionInformacionMusical" targetName="gmock" />
+      <config projectName="recuperacionInformacionMusical" targetName="recuperacionInformacionMusical" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -15,10 +15,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="869df3b7-f587-4933-94bc-4058d9c92ec3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solucion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/solucion.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="869df3b7-f587-4933-94bc-4058d9c92ec3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +27,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
   </component>
   <component name="ProjectId" id="1SUby928DEhBknByHGNnRVrEAa0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -52,13 +49,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.Build All">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="recuperacionInformacionMusical" RUN_TARGET_NAME="recuperacionInformacionMusical" EXPLICIT_BUILD_TARGET_NAME="all">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="recuperacionInformacionMusical" TARGET_NAME="gmock" CONFIG_NAME="Debug">
+  <component name="RunManager" selected="CMake Application.gmock">
+    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="recuperacionInformacionMusical" TARGET_NAME="gmock" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="recuperacionInformacionMusical" RUN_TARGET_NAME="recuperacionInformacionMusical">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -84,7 +76,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.Build All" />
       <item itemvalue="CMake Application.gmock" />
       <item itemvalue="CMake Application.gmock_main" />
       <item itemvalue="CMake Application.gtest" />
@@ -107,14 +98,7 @@
       <workItem from="1571975617301" duration="16000" />
       <workItem from="1571978098414" duration="1353000" />
       <workItem from="1572046499021" duration="838000" />
-      <workItem from="1572287672204" duration="2336000" />
-      <workItem from="1572293280227" duration="3870000" />
-      <workItem from="1572298255922" duration="1236000" />
-      <workItem from="1572306075763" duration="915000" />
-      <workItem from="1572634265386" duration="4165000" />
-      <workItem from="1572659860738" duration="3833000" />
-      <workItem from="1572717460586" duration="18737000" />
-      <workItem from="1572832975916" duration="36000" />
+      <workItem from="1572844727390" duration="298000" />
     </task>
     <servers />
   </component>
@@ -133,11 +117,19 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="C:/.." />
-      <path value="C:/../../.." />
-    </ignored-roots>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

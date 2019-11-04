@@ -278,19 +278,19 @@ cxxabi.h
 acxx_demangle.h
 -
 
-C:/Users/martin.000/TPI/MIR/auxiliares.cpp
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/auxiliares.cpp
 algorithm
 -
 gtest/gtest.h
 -
 auxiliares.h
-C:/Users/martin.000/TPI/MIR/auxiliares.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/auxiliares.h
 
-C:/Users/martin.000/TPI/MIR/auxiliares.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/auxiliares.h
 definiciones.h
-C:/Users/martin.000/TPI/MIR/definiciones.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/definiciones.h
 
-C:/Users/martin.000/TPI/MIR/definiciones.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/definiciones.h
 vector
 -
 tuple
@@ -298,105 +298,105 @@ tuple
 cmath
 -
 
-C:/Users/martin.000/TPI/MIR/main.cpp
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/main.cpp
 iostream
 -
 gtest/gtest.h
-C:/Users/martin.000/TPI/MIR/gtest/gtest.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/gtest/gtest.h
 solucion.h
-C:/Users/martin.000/TPI/MIR/solucion.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/solucion.h
 auxiliares.h
-C:/Users/martin.000/TPI/MIR/auxiliares.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/auxiliares.h
 
-C:/Users/martin.000/TPI/MIR/solucion.cpp
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/solucion.cpp
 solucion.h
-C:/Users/martin.000/TPI/MIR/solucion.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/solucion.h
 auxiliares.h
-C:/Users/martin.000/TPI/MIR/auxiliares.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/auxiliares.h
 algorithm
 -
 
-C:/Users/martin.000/TPI/MIR/solucion.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/solucion.h
 definiciones.h
-C:/Users/martin.000/TPI/MIR/definiciones.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/definiciones.h
 
-C:/Users/martin.000/TPI/MIR/tests/audiosSoftYHard.cpp
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/tests/audiosSoftYHard.cpp
 ../solucion.h
-C:/Users/martin.000/TPI/MIR/solucion.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/solucion.h
 ../auxiliares.h
-C:/Users/martin.000/TPI/MIR/auxiliares.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/auxiliares.h
 gtest/gtest.h
-C:/Users/martin.000/TPI/MIR/tests/gtest/gtest.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/tests/gtest/gtest.h
 
-C:/Users/martin.000/TPI/MIR/tests/bajarCalidad.cpp
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/tests/bajarCalidad.cpp
 ../solucion.h
-C:/Users/martin.000/TPI/MIR/solucion.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/solucion.h
 ../auxiliares.h
-C:/Users/martin.000/TPI/MIR/auxiliares.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/auxiliares.h
 gtest/gtest.h
-C:/Users/martin.000/TPI/MIR/tests/gtest/gtest.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/tests/gtest/gtest.h
 
-C:/Users/martin.000/TPI/MIR/tests/formatoValidoTEST.cpp
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/tests/formatoValidoTEST.cpp
 ../solucion.h
-C:/Users/martin.000/TPI/MIR/solucion.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/solucion.h
 ../auxiliares.h
-C:/Users/martin.000/TPI/MIR/auxiliares.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/auxiliares.h
 gtest/gtest.h
-C:/Users/martin.000/TPI/MIR/tests/gtest/gtest.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/tests/gtest/gtest.h
 
-C:/Users/martin.000/TPI/MIR/tests/limpiarAudio.cpp
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/tests/limpiarAudio.cpp
 ../solucion.h
-C:/Users/martin.000/TPI/MIR/solucion.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/solucion.h
 ../auxiliares.h
-C:/Users/martin.000/TPI/MIR/auxiliares.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/auxiliares.h
 gtest/gtest.h
-C:/Users/martin.000/TPI/MIR/tests/gtest/gtest.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/tests/gtest/gtest.h
 
-C:/Users/martin.000/TPI/MIR/tests/magnitudAbsolutaMaximaTest.cpp
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/tests/magnitudAbsolutaMaximaTest.cpp
 ../solucion.h
-C:/Users/martin.000/TPI/MIR/solucion.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/solucion.h
 ../auxiliares.h
-C:/Users/martin.000/TPI/MIR/auxiliares.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/auxiliares.h
 gtest/gtest.h
-C:/Users/martin.000/TPI/MIR/tests/gtest/gtest.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/tests/gtest/gtest.h
 
-C:/Users/martin.000/TPI/MIR/tests/maximosTemporales.cpp
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/tests/maximosTemporales.cpp
 ../solucion.h
-C:/Users/martin.000/TPI/MIR/solucion.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/solucion.h
 ../auxiliares.h
-C:/Users/martin.000/TPI/MIR/auxiliares.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/auxiliares.h
 gtest/gtest.h
-C:/Users/martin.000/TPI/MIR/tests/gtest/gtest.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/tests/gtest/gtest.h
 
-C:/Users/martin.000/TPI/MIR/tests/redirigirTEST.cpp
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/tests/redirigirTEST.cpp
 ../solucion.h
-C:/Users/martin.000/TPI/MIR/solucion.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/solucion.h
 ../auxiliares.h
-C:/Users/martin.000/TPI/MIR/auxiliares.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/auxiliares.h
 gtest/gtest.h
-C:/Users/martin.000/TPI/MIR/tests/gtest/gtest.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/tests/gtest/gtest.h
 
-C:/Users/martin.000/TPI/MIR/tests/reemplazarSubAudio.cpp
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/tests/reemplazarSubAudio.cpp
 ../solucion.h
-C:/Users/martin.000/TPI/MIR/solucion.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/solucion.h
 ../auxiliares.h
-C:/Users/martin.000/TPI/MIR/auxiliares.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/auxiliares.h
 gtest/gtest.h
-C:/Users/martin.000/TPI/MIR/tests/gtest/gtest.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/tests/gtest/gtest.h
 
-C:/Users/martin.000/TPI/MIR/tests/replicarTEST.cpp
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/tests/replicarTEST.cpp
 ../solucion.h
-C:/Users/martin.000/TPI/MIR/solucion.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/solucion.h
 ../auxiliares.h
-C:/Users/martin.000/TPI/MIR/auxiliares.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/auxiliares.h
 gtest/gtest.h
-C:/Users/martin.000/TPI/MIR/tests/gtest/gtest.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/tests/gtest/gtest.h
 
-C:/Users/martin.000/TPI/MIR/tests/revertirAudioTEST.cpp
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/tests/revertirAudioTEST.cpp
 ../solucion.h
-C:/Users/martin.000/TPI/MIR/solucion.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/solucion.h
 ../auxiliares.h
-C:/Users/martin.000/TPI/MIR/auxiliares.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/auxiliares.h
 gtest/gtest.h
-C:/Users/martin.000/TPI/MIR/tests/gtest/gtest.h
+C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/tests/gtest/gtest.h
 

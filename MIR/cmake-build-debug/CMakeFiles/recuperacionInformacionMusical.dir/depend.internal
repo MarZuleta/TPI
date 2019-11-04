@@ -24,9 +24,9 @@ CMakeFiles/recuperacionInformacionMusical.dir/auxiliares.obj
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-tuple.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
- C:/Users/martin.000/TPI/MIR/auxiliares.cpp
- C:/Users/martin.000/TPI/MIR/auxiliares.h
- C:/Users/martin.000/TPI/MIR/definiciones.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/auxiliares.cpp
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/auxiliares.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/definiciones.h
 CMakeFiles/recuperacionInformacionMusical.dir/main.obj
  ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
  ../lib/googletest-master/googletest/include/gtest/gtest-message.h
@@ -50,15 +50,15 @@ CMakeFiles/recuperacionInformacionMusical.dir/main.obj
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-tuple.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
- C:/Users/martin.000/TPI/MIR/auxiliares.h
- C:/Users/martin.000/TPI/MIR/definiciones.h
- C:/Users/martin.000/TPI/MIR/main.cpp
- C:/Users/martin.000/TPI/MIR/solucion.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/auxiliares.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/definiciones.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/main.cpp
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/solucion.h
 CMakeFiles/recuperacionInformacionMusical.dir/solucion.obj
- C:/Users/martin.000/TPI/MIR/auxiliares.h
- C:/Users/martin.000/TPI/MIR/definiciones.h
- C:/Users/martin.000/TPI/MIR/solucion.cpp
- C:/Users/martin.000/TPI/MIR/solucion.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/auxiliares.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/definiciones.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/solucion.cpp
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/solucion.h
 CMakeFiles/recuperacionInformacionMusical.dir/tests/audiosSoftYHard.obj
  ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
  ../lib/googletest-master/googletest/include/gtest/gtest-message.h
@@ -82,10 +82,10 @@ CMakeFiles/recuperacionInformacionMusical.dir/tests/audiosSoftYHard.obj
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-tuple.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
- C:/Users/martin.000/TPI/MIR/auxiliares.h
- C:/Users/martin.000/TPI/MIR/definiciones.h
- C:/Users/martin.000/TPI/MIR/solucion.h
- C:/Users/martin.000/TPI/MIR/tests/audiosSoftYHard.cpp
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/auxiliares.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/definiciones.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/solucion.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/tests/audiosSoftYHard.cpp
 CMakeFiles/recuperacionInformacionMusical.dir/tests/bajarCalidad.obj
  ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
  ../lib/googletest-master/googletest/include/gtest/gtest-message.h
@@ -109,10 +109,10 @@ CMakeFiles/recuperacionInformacionMusical.dir/tests/bajarCalidad.obj
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-tuple.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
- C:/Users/martin.000/TPI/MIR/auxiliares.h
- C:/Users/martin.000/TPI/MIR/definiciones.h
- C:/Users/martin.000/TPI/MIR/solucion.h
- C:/Users/martin.000/TPI/MIR/tests/bajarCalidad.cpp
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/auxiliares.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/definiciones.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/solucion.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/tests/bajarCalidad.cpp
 CMakeFiles/recuperacionInformacionMusical.dir/tests/formatoValidoTEST.obj
  ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
  ../lib/googletest-master/googletest/include/gtest/gtest-message.h
@@ -136,10 +136,10 @@ CMakeFiles/recuperacionInformacionMusical.dir/tests/formatoValidoTEST.obj
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-tuple.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
- C:/Users/martin.000/TPI/MIR/auxiliares.h
- C:/Users/martin.000/TPI/MIR/definiciones.h
- C:/Users/martin.000/TPI/MIR/solucion.h
- C:/Users/martin.000/TPI/MIR/tests/formatoValidoTEST.cpp
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/auxiliares.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/definiciones.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/solucion.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/tests/formatoValidoTEST.cpp
 CMakeFiles/recuperacionInformacionMusical.dir/tests/limpiarAudio.obj
  ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
  ../lib/googletest-master/googletest/include/gtest/gtest-message.h
@@ -163,10 +163,10 @@ CMakeFiles/recuperacionInformacionMusical.dir/tests/limpiarAudio.obj
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-tuple.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
- C:/Users/martin.000/TPI/MIR/auxiliares.h
- C:/Users/martin.000/TPI/MIR/definiciones.h
- C:/Users/martin.000/TPI/MIR/solucion.h
- C:/Users/martin.000/TPI/MIR/tests/limpiarAudio.cpp
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/auxiliares.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/definiciones.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/solucion.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/tests/limpiarAudio.cpp
 CMakeFiles/recuperacionInformacionMusical.dir/tests/magnitudAbsolutaMaximaTest.obj
  ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
  ../lib/googletest-master/googletest/include/gtest/gtest-message.h
@@ -190,10 +190,10 @@ CMakeFiles/recuperacionInformacionMusical.dir/tests/magnitudAbsolutaMaximaTest.o
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-tuple.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
- C:/Users/martin.000/TPI/MIR/auxiliares.h
- C:/Users/martin.000/TPI/MIR/definiciones.h
- C:/Users/martin.000/TPI/MIR/solucion.h
- C:/Users/martin.000/TPI/MIR/tests/magnitudAbsolutaMaximaTest.cpp
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/auxiliares.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/definiciones.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/solucion.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/tests/magnitudAbsolutaMaximaTest.cpp
 CMakeFiles/recuperacionInformacionMusical.dir/tests/maximosTemporales.obj
  ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
  ../lib/googletest-master/googletest/include/gtest/gtest-message.h
@@ -217,10 +217,10 @@ CMakeFiles/recuperacionInformacionMusical.dir/tests/maximosTemporales.obj
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-tuple.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
- C:/Users/martin.000/TPI/MIR/auxiliares.h
- C:/Users/martin.000/TPI/MIR/definiciones.h
- C:/Users/martin.000/TPI/MIR/solucion.h
- C:/Users/martin.000/TPI/MIR/tests/maximosTemporales.cpp
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/auxiliares.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/definiciones.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/solucion.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/tests/maximosTemporales.cpp
 CMakeFiles/recuperacionInformacionMusical.dir/tests/redirigirTEST.obj
  ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
  ../lib/googletest-master/googletest/include/gtest/gtest-message.h
@@ -244,10 +244,10 @@ CMakeFiles/recuperacionInformacionMusical.dir/tests/redirigirTEST.obj
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-tuple.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
- C:/Users/martin.000/TPI/MIR/auxiliares.h
- C:/Users/martin.000/TPI/MIR/definiciones.h
- C:/Users/martin.000/TPI/MIR/solucion.h
- C:/Users/martin.000/TPI/MIR/tests/redirigirTEST.cpp
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/auxiliares.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/definiciones.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/solucion.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/tests/redirigirTEST.cpp
 CMakeFiles/recuperacionInformacionMusical.dir/tests/reemplazarSubAudio.obj
  ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
  ../lib/googletest-master/googletest/include/gtest/gtest-message.h
@@ -271,10 +271,10 @@ CMakeFiles/recuperacionInformacionMusical.dir/tests/reemplazarSubAudio.obj
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-tuple.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
- C:/Users/martin.000/TPI/MIR/auxiliares.h
- C:/Users/martin.000/TPI/MIR/definiciones.h
- C:/Users/martin.000/TPI/MIR/solucion.h
- C:/Users/martin.000/TPI/MIR/tests/reemplazarSubAudio.cpp
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/auxiliares.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/definiciones.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/solucion.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/tests/reemplazarSubAudio.cpp
 CMakeFiles/recuperacionInformacionMusical.dir/tests/replicarTEST.obj
  ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
  ../lib/googletest-master/googletest/include/gtest/gtest-message.h
@@ -298,10 +298,10 @@ CMakeFiles/recuperacionInformacionMusical.dir/tests/replicarTEST.obj
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-tuple.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
- C:/Users/martin.000/TPI/MIR/auxiliares.h
- C:/Users/martin.000/TPI/MIR/definiciones.h
- C:/Users/martin.000/TPI/MIR/solucion.h
- C:/Users/martin.000/TPI/MIR/tests/replicarTEST.cpp
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/auxiliares.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/definiciones.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/solucion.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/tests/replicarTEST.cpp
 CMakeFiles/recuperacionInformacionMusical.dir/tests/revertirAudioTEST.obj
  ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h
  ../lib/googletest-master/googletest/include/gtest/gtest-message.h
@@ -325,7 +325,7 @@ CMakeFiles/recuperacionInformacionMusical.dir/tests/revertirAudioTEST.obj
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-tuple.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
- C:/Users/martin.000/TPI/MIR/auxiliares.h
- C:/Users/martin.000/TPI/MIR/definiciones.h
- C:/Users/martin.000/TPI/MIR/solucion.h
- C:/Users/martin.000/TPI/MIR/tests/revertirAudioTEST.cpp
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/auxiliares.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/definiciones.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/solucion.h
+ C:/Users/martin.000/Desktop/TPI V3/TPI/TPI/MIR/tests/revertirAudioTEST.cpp
