@@ -2,6 +2,7 @@
 #include "auxiliares.h"
 #include <algorithm>
 
+
 using namespace std;
 
 
@@ -144,8 +145,8 @@ void maximosTemporales(audio a, int profundidad, vector<int> tiempos, vector<int
                        vector<pair<int, int> > &intervalos) {
     //Primero calculo los intervalos
     for (int j = 0; j < tiempos.size(); ++j) {
-        for (int i = 0; i < a.size(); i+=tiempos[j]) {
-            pair<int, int> intervalo = {i, i + tiempos[i] -1};
+        for (int i = 0; i < a.size(); i += tiempos[j]) {
+            pair<int, int> intervalo = {i, i + tiempos[i] - 1};
             intervalos.push_back(intervalo);
         }
     }
@@ -171,7 +172,7 @@ void limpiarAudio(audio &a, int profundidad, vector<int> &outliers) {
 
     if (a.size() != 1) {
         audio audioOrdenado = selectionSort(a);
-        int percentil95 = audioOrdenado[(int) ((a.size() * 95)/100)];
+        int percentil95 = audioOrdenado[(int) ((a.size() * 95) / 100)];
         for (int i = 0; i < a.size(); ++i) {
             if (a[i] > percentil95) {
                 outliers.push_back(i);
@@ -195,6 +196,5 @@ void limpiarAudio(audio &a, int profundidad, vector<int> &outliers) {
         }
     }
 }
-
 
 

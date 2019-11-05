@@ -5,6 +5,7 @@
 #include <tuple>
 #include <cmath>
 
+
 using namespace std;
 
 // DEFINICIONES DE TIPO
