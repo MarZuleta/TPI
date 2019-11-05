@@ -14,3 +14,10 @@ void escribirAudio(audio a, string nombreArchivo, int c) {
     }
 
 }
+tuple<int, audio> leerAudio(string nombreArchivo){
+    int canal = 0;
+    audio a;
+
+}
+
+
