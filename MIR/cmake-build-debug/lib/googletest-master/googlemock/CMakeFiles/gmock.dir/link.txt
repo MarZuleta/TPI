@@ -1,2 +1,2 @@
-/usr/bin/ar qc libgmockd.a  CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o CMakeFiles/gmock.dir/src/gmock-all.cc.o
-/usr/bin/ranlib libgmockd.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe qc libgmockd.a  CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.obj CMakeFiles/gmock.dir/src/gmock-all.cc.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ranlib.exe libgmockd.a

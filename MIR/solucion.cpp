@@ -35,10 +35,11 @@ audio revertirAudio(audio a, int canal, int profundidad) {
     audio b;        // O(1)
     for (int i = 0; i < (a.size() / canal); i++) {  //O(n/c) siendo n = a.size() y c = canal
         for (int j = 0; j < canal; ++j) {           //O(c)
-            b.push_back(a[a.size() - canal * (i + 1) + j]);
+            b.push_back(a[a.size() - canal * (i + 1) + j]); //O(1)
         }
     }
-    return b;   //Entonces como para cada ejecucion del primer ciclo se ejecuta el segundo queda O(n/c*c) quedando O(n)
+    return b;   //Entonces como para cada ejecucion del primer ciclo se ejecuta el segundo queda O((n/c)*c + k)
+                // siendo k la suma de las operaciones O(1), y como se simplifica (n/c)*c queda entonces O(n).
 }
 
 void magnitudAbsolutaMaxima(audio a, int canal, int profundidad, vector<int> &maximos, vector<int> &posicionesMaximos) {
@@ -151,7 +152,7 @@ void maximosTemporales(audio a, int profundidad, vector<int> tiempos, vector<int
     //Primero calculo los intervalos
     for (int j = 0; j < tiempos.size(); ++j) {
         for (int i = 0; i < a.size(); i += tiempos[j]) {
-            pair<int, int> intervalo = {i, i + tiempos[i] - 1};
+            pair<int, int> intervalo = {i, i + tiempos[j] - 1};
             intervalos.push_back(intervalo);
         }
     }
@@ -174,33 +175,35 @@ void maximosTemporales(audio a, int profundidad, vector<int> tiempos, vector<int
 
 void limpiarAudio(audio &a, int profundidad, vector<int> &outliers) {
     //Primero calculo los outliers
-
-    if (a.size() != 1) {
-        audio audioOrdenado = selectionSort(a);
-        int percentil95 = audioOrdenado[(int) ((a.size() * 95) / 100)];
-        for (int i = 0; i < a.size(); ++i) {
+    if (a.size() > 1) {     //O(1)
+        audio a0 = a;       //O(1)
+        audio audioOrdenado = selectionSort(a0);   //O(n^2) siendo n = a.size()
+        int percentil95 = audioOrdenado[(int) ((a.size() * 95) / 100)-1];  //O(1)
+        for (int i = 0; i < a.size(); ++i) {      //O(n) siendo n = a.size()
             if (a[i] > percentil95) {
                 outliers.push_back(i);
             }
         }
-        if (outliers.size() > 0) {
-            for (int i = 0; i < outliers.size(); ++i) {
-                int noOutlierDerecha = buscarNoOutlierDerecha(a, outliers[i], percentil95);
-                int noOutlierIzquierda = buscarNoOutlierIzquierda(a, outliers[i], percentil95);
-                // Separo en los tres casos especificados
-                if ((noOutlierDerecha >= 0) && noOutlierIzquierda >= 0) {
-                    double b = (a[noOutlierDerecha] + a[noOutlierIzquierda]);
-                    b = floor (b / 2);
-                    a[outliers[i]] = (int) b;
+
+        if (outliers.size() > 0) {  //O(1)
+            for (int i = 0; i < outliers.size(); ++i) {   //O(M) siendo M = la cantidad de outliers
+                int noOutlierDerecha = buscarNoOutlierDerecha(a, outliers[i], percentil95);  // O(n-i) n= a.size
+                int noOutlierIzquierda = buscarNoOutlierIzquierda(a, outliers[i], percentil95);//O(i) siendo i la
+                // Separo en los tres casos especificados                                     // posicion del outlier
+                if ((noOutlierDerecha >= 0) && noOutlierIzquierda >= 0) {       //O(1)
+                    double b = (a[noOutlierDerecha] + a[noOutlierIzquierda]);  //O(1)
+                    b = floor (b / 2);       //O(1)
+                    a[outliers[i]] = (int) b;   //O(1)
                 }
-                if ((noOutlierDerecha >= 0) && (noOutlierIzquierda == -1)) {
-                    a[outliers[i]] = a[noOutlierDerecha];
+                if ((noOutlierDerecha >= 0) && (noOutlierIzquierda == -1)) {   //O(1)
+                    a[outliers[i]] = a[noOutlierDerecha];       //O(1)
                 }
-                if ((noOutlierDerecha == -1) && (noOutlierIzquierda >= 0)) {
-                    a[outliers[i]] = a[noOutlierIzquierda];
+                if ((noOutlierDerecha == -1) && (noOutlierIzquierda >= 0)) {  //O(1)
+                    a[outliers[i]] = a[noOutlierIzquierda];     //O(1)
                 }
             }
-        }
+        } // Entonves el tiempo de ejecucion en peor caso es de O(n^2 + n + m*((n-i) + i) + c) siendo c la suma de
+          // las operaciones de O(1). Por lo tanto se puede acotar por un O(k*n^2) quedando asi O(n^2).
     }
 }
 

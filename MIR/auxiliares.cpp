@@ -7,11 +7,22 @@ bool vectoresOrdenadosIguales(vector<int> vector1, vector<int> vector2){
     if(vector1.size() != vector2.size())
         return false;
 
-    for (int i = 0; i < vector1.size(); ++i)
+    for (int i = 0; i < vector1.size(); i++)
         if (vector1[i] != vector2[i]){return false;}
 
     return true;
 }
+
+
+/*
+void swapParaAudio(int i, int j, audio &a)
+{
+    int aux = a[i];
+    a[i] = a[j];
+    a[j] = aux;
+}
+*/
+
 
 bool tieneProfundidadValida(audio a, int profundidad) {
     int i = 0;
@@ -38,7 +49,7 @@ vector<audio> subAudiosDeLongitud (audio a, int longitud){
     vector<audio> subAudio (tamano, v);
     int j = 0;
     while (max<a.size()){
-        for (int i = min; i <= max; ++i) {
+        for (int i = min; i <= max; i++) {
             subAudio[j].push_back(a[i]);
         }
         min++;
@@ -52,7 +63,7 @@ vector<audio> subAudiosDeLongitud (audio a, int longitud){
 
 int maximoDeUnAudio (audio a){
     int max = 0;
-    for (int i = 0; i < a.size(); ++i) {
+    for (int i = 0; i < a.size(); i++) {
         if (a[i]>max){
             max = a[i];
         }
@@ -60,27 +71,29 @@ int maximoDeUnAudio (audio a){
     return max;
 }
 
-audio selectionSort(audio a){
-    audio res;
-    for (int i = 0; i < a.size(); ++i) {
-        int min = 0;
-        int posMin = 0;
-        for (int j = 0; j < a.size()-i; ++j) {
-            if (a[j]< min){
-                min = a[j];
-                posMin = j;
+
+
+audio selectionSort(audio &a) {
+    int aux;
+    for (int j = 0; j < a.size() - 1; ++j) {
+        int min = a[j];
+        aux = j;
+        for (int i = j + 1; i < a.size(); ++i) {
+            if (min > a[i]) {
+                min = a[i];
+                aux = i;
             }
         }
-        res.push_back(min);
-        a.erase(a.begin() + posMin);
+        swap(a[j], a[aux]);
     }
-    return res;
+    return a;
 }
+
 
 
 int buscarNoOutlierDerecha(audio a, int i, int percentil95){
     int noHayNoOutlier = -1;
-    for (int j = i + 1; j < a.size(); ++j) {
+    for (int j = i + 1; j < a.size(); j++) {
         if (a[j]<percentil95){
             return j;
         }
@@ -140,4 +153,25 @@ void ASSERT_VECTOR(vector<int> vector1, vector<int> vector2) {
 
 void ASSERT_MATRIX(vector<audio> mat1, vector<audio> mat2) {
     ASSERT_TRUE(matricesIguales(mat1, mat2));
+}
+
+
+bool vectoresDeDuplasOrdenadosIguales(vector<pair<int, int>> vector1, vector<pair<int, int>> vector2){
+    if(vector1.size() != vector2.size())
+        return false;
+
+    for (int i = 0; i < vector1.size(); i++)
+        if (vector1[i] != vector2[i]){return false;}
+
+    return true;
+}
+
+
+
+
+void ASSERT_VECTOR_DUPLA (vector<pair<int, int>> vector1, vector<pair<int, int>> vector2) {
+    sort(vector1.begin(), vector1.end());
+    sort(vector2.begin(), vector2.end());
+
+    ASSERT_TRUE(vectoresDeDuplasOrdenadosIguales(vector1, vector2));
 }
