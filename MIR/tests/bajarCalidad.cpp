@@ -24,11 +24,11 @@ TEST(bajarCalidadTEST, listaNormal){
     ASSERT_MATRIX(as, esperado);
 }
 
-TEST(bajarCalidadTEST, dosListas){
-    vector<audio> as = {{0, -8, 0, 8, 14, 12, 6, 0},{0, -8, 0, 8, 14,}};
+TEST(bajarCalidadTEST, dosListasYNumerosNegativosParaRedondear){
+    vector<audio> as = {{0, -8, 0, 8, 14, 12, 6, 0},{0, -8, 0, 8, -5}};
     int profundidad1 = 5;
     int profundidad2 = 4;
-    vector<audio> esperado = {{0, -4, 0, 4, 7, 6,3, 0},{0, -4, 0, 4, 7,}};
+    vector<audio> esperado = {{0, -4, 0, 4, 7, 6,3, 0},{0, -4, 0, 4, -3}};
 
     bajarCalidad(as, profundidad1, profundidad2);
     ASSERT_MATRIX(as, esperado);

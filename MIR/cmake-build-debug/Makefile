@@ -222,6 +222,36 @@ gtest/fast:
 .PHONY : gtest/fast
 
 # target to build an object file
+Entrada-Salida.o:
+	$(MAKE) -f CMakeFiles/recuperacionInformacionMusical.dir/build.make CMakeFiles/recuperacionInformacionMusical.dir/Entrada-Salida.o
+.PHONY : Entrada-Salida.o
+
+# target to preprocess a source file
+Entrada-Salida.i:
+	$(MAKE) -f CMakeFiles/recuperacionInformacionMusical.dir/build.make CMakeFiles/recuperacionInformacionMusical.dir/Entrada-Salida.i
+.PHONY : Entrada-Salida.i
+
+# target to generate assembly for a file
+Entrada-Salida.s:
+	$(MAKE) -f CMakeFiles/recuperacionInformacionMusical.dir/build.make CMakeFiles/recuperacionInformacionMusical.dir/Entrada-Salida.s
+.PHONY : Entrada-Salida.s
+
+# target to build an object file
+Graficos.o:
+	$(MAKE) -f CMakeFiles/recuperacionInformacionMusical.dir/build.make CMakeFiles/recuperacionInformacionMusical.dir/Graficos.o
+.PHONY : Graficos.o
+
+# target to preprocess a source file
+Graficos.i:
+	$(MAKE) -f CMakeFiles/recuperacionInformacionMusical.dir/build.make CMakeFiles/recuperacionInformacionMusical.dir/Graficos.i
+.PHONY : Graficos.i
+
+# target to generate assembly for a file
+Graficos.s:
+	$(MAKE) -f CMakeFiles/recuperacionInformacionMusical.dir/build.make CMakeFiles/recuperacionInformacionMusical.dir/Graficos.s
+.PHONY : Graficos.s
+
+# target to build an object file
 auxiliares.o:
 	$(MAKE) -f CMakeFiles/recuperacionInformacionMusical.dir/build.make CMakeFiles/recuperacionInformacionMusical.dir/auxiliares.o
 .PHONY : auxiliares.o
@@ -433,6 +463,12 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... Entrada-Salida.o"
+	@echo "... Entrada-Salida.i"
+	@echo "... Entrada-Salida.s"
+	@echo "... Graficos.o"
+	@echo "... Graficos.i"
+	@echo "... Graficos.s"
 	@echo "... auxiliares.o"
 	@echo "... auxiliares.i"
 	@echo "... auxiliares.s"

@@ -334,6 +334,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/mzuleta/TPI/MIR/Entrada-Salida.cpp">
+			<Option target="recuperacionInformacionMusical"/>
+		</Unit>
+		<Unit filename="/home/mzuleta/TPI/MIR/Graficos.cpp">
+			<Option target="recuperacionInformacionMusical"/>
+		</Unit>
+		<Unit filename="/home/mzuleta/TPI/MIR/Graficos.h">
+			<Option target="recuperacionInformacionMusical"/>
+		</Unit>
 		<Unit filename="/home/mzuleta/TPI/MIR/auxiliares.cpp">
 			<Option target="recuperacionInformacionMusical"/>
 		</Unit>

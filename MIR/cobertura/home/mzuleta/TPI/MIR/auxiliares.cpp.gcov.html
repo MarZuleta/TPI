@@ -1,0 +1,219 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>LCOV - coverage.info - /home/mzuleta/TPI/MIR/auxiliares.cpp</title>
+  <link rel="stylesheet" type="text/css" href="../../../../gcov.css">
+</head>
+
+<body>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="title">LCOV - code coverage report</td></tr>
+    <tr><td class="ruler"><img src="../../../../glass.png" width=3 height=3 alt=""></td></tr>
+
+    <tr>
+      <td width="100%">
+        <table cellpadding=1 border=0 width="100%">
+          <tr>
+            <td width="10%" class="headerItem">Current view:</td>
+            <td width="35%" class="headerValue"><a href="../../../../index.html">top level</a> - <a href="index.html">home/mzuleta/TPI/MIR</a> - auxiliares.cpp<span style="font-size: 80%;"> (source / <a href="auxiliares.cpp.func-sort-c.html">functions</a>)</span></td>
+            <td width="5%"></td>
+            <td width="15%"></td>
+            <td width="10%" class="headerCovTableHead">Hit</td>
+            <td width="10%" class="headerCovTableHead">Total</td>
+            <td width="15%" class="headerCovTableHead">Coverage</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Test:</td>
+            <td class="headerValue">coverage.info</td>
+            <td></td>
+            <td class="headerItem">Lines:</td>
+            <td class="headerCovTableEntry">74</td>
+            <td class="headerCovTableEntry">84</td>
+            <td class="headerCovTableEntryMed">88.1 %</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Date:</td>
+            <td class="headerValue">2019-11-04 21:46:31</td>
+            <td></td>
+            <td class="headerItem">Functions:</td>
+            <td class="headerCovTableEntry">12</td>
+            <td class="headerCovTableEntry">13</td>
+            <td class="headerCovTableEntryHi">92.3 %</td>
+          </tr>
+          <tr><td><img src="../../../../glass.png" width=3 height=3 alt=""></td></tr>
+        </table>
+      </td>
+    </tr>
+
+    <tr><td class="ruler"><img src="../../../../glass.png" width=3 height=3 alt=""></td></tr>
+  </table>
+
+  <table cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td><br></td>
+    </tr>
+    <tr>
+      <td>
+<pre class="sourceHeading">          Line data    Source code</pre>
+<pre class="source">
+<a name="1"><span class="lineNum">       1 </span>            : #include &lt;algorithm&gt;</a>
+<span class="lineNum">       2 </span>            : #include &lt;gtest/gtest.h&gt;
+<span class="lineNum">       3 </span>            : #include &quot;auxiliares.h&quot;
+<a name="4"><span class="lineNum">       4 </span>            : </a>
+<span class="lineNum">       5 </span>            : 
+<span class="lineNum">       6 </span><span class="lineCov">        126 : bool vectoresOrdenadosIguales(vector&lt;int&gt; vector1, vector&lt;int&gt; vector2){</span>
+<span class="lineNum">       7 </span><span class="lineCov">        126 :     if(vector1.size() != vector2.size())</span>
+<span class="lineNum">       8 </span><span class="lineCov">         23 :         return false;</span>
+<span class="lineNum">       9 </span>            : 
+<span class="lineNum">      10 </span><span class="lineCov">        623 :     for (int i = 0; i &lt; vector1.size(); ++i)</span>
+<span class="lineNum">      11 </span><span class="lineCov">        521 :         if (vector1[i] != vector2[i]){return false;}</span>
+<span class="lineNum">      12 </span>            : 
+<span class="lineNum">      13 </span><span class="lineCov">        102 :     return true;</span>
+<a name="14"><span class="lineNum">      14 </span>            : }</a>
+<span class="lineNum">      15 </span>            : 
+<span class="lineNum">      16 </span><span class="lineCov">          3 : bool tieneProfundidadValida(audio a, int profundidad) {</span>
+<span class="lineNum">      17 </span><span class="lineCov">          3 :     int i = 0;</span>
+<span class="lineNum">      18 </span><span class="lineCov">          3 :     while (i &lt; a.size()) {</span>
+<span class="lineNum">      19 </span><span class="lineCov">          3 :         if (((-2) ^ (profundidad - 1)) &lt;= a[i] &lt;= ((2 ^ (profundidad - 1)) - 1)) {</span>
+<span class="lineNum">      20 </span><span class="lineNoCov">          0 :             i++;</span>
+<span class="lineNum">      21 </span>            :         } else {
+<span class="lineNum">      22 </span><span class="lineCov">          3 :             return false;</span>
+<span class="lineNum">      23 </span>            :         }
+<span class="lineNum">      24 </span>            :     }
+<span class="lineNum">      25 </span><span class="lineNoCov">          0 :     return true;</span>
+<span class="lineNum">      26 </span>            : }
+<a name="27"><span class="lineNum">      27 </span>            : </a>
+<span class="lineNum">      28 </span>            : 
+<span class="lineNum">      29 </span><span class="lineCov">         15 : vector&lt;audio&gt; subAudiosDeLongitud (audio a, int longitud){</span>
+<span class="lineNum">      30 </span><span class="lineCov">         30 :     vector&lt;audio&gt; b;</span>
+<span class="lineNum">      31 </span><span class="lineCov">         15 :     if (longitud &gt; a.size()){</span>
+<span class="lineNum">      32 </span><span class="lineNoCov">          0 :         return b;</span>
+<span class="lineNum">      33 </span>            :     }
+<span class="lineNum">      34 </span><span class="lineCov">         15 :     int max = longitud -1;</span>
+<span class="lineNum">      35 </span><span class="lineCov">         15 :     int min= 0;</span>
+<span class="lineNum">      36 </span><span class="lineCov">         30 :     audio v;</span>
+<span class="lineNum">      37 </span><span class="lineCov">         15 :     int tamano = a.size()-longitud+1;</span>
+<span class="lineNum">      38 </span><span class="lineCov">         30 :     vector&lt;audio&gt; subAudio (tamano, v);</span>
+<span class="lineNum">      39 </span><span class="lineCov">         15 :     int j = 0;</span>
+<span class="lineNum">      40 </span><span class="lineCov">        105 :     while (max&lt;a.size()){</span>
+<span class="lineNum">      41 </span><span class="lineCov">        186 :         for (int i = min; i &lt;= max; ++i) {</span>
+<span class="lineNum">      42 </span><span class="lineCov">        141 :             subAudio[j].push_back(a[i]);</span>
+<span class="lineNum">      43 </span>            :         }
+<span class="lineNum">      44 </span><span class="lineCov">         45 :         min++;</span>
+<span class="lineNum">      45 </span><span class="lineCov">         45 :         max++;</span>
+<span class="lineNum">      46 </span><span class="lineCov">         45 :         j++;</span>
+<span class="lineNum">      47 </span>            :     }
+<span class="lineNum">      48 </span><span class="lineCov">         15 :     return subAudio;</span>
+<span class="lineNum">      49 </span>            : }
+<span class="lineNum">      50 </span>            : 
+<a name="51"><span class="lineNum">      51 </span>            : </a>
+<span class="lineNum">      52 </span>            : 
+<span class="lineNum">      53 </span><span class="lineNoCov">          0 : int maximoDeUnAudio (audio a){</span>
+<span class="lineNum">      54 </span><span class="lineNoCov">          0 :     int max = 0;</span>
+<span class="lineNum">      55 </span><span class="lineNoCov">          0 :     for (int i = 0; i &lt; a.size(); ++i) {</span>
+<span class="lineNum">      56 </span><span class="lineNoCov">          0 :         if (a[i]&gt;max){</span>
+<span class="lineNum">      57 </span><span class="lineNoCov">          0 :             max = a[i];</span>
+<span class="lineNum">      58 </span>            :         }
+<span class="lineNum">      59 </span>            :     }
+<span class="lineNum">      60 </span><span class="lineNoCov">          0 :     return max;</span>
+<a name="61"><span class="lineNum">      61 </span>            : }</a>
+<span class="lineNum">      62 </span>            : 
+<span class="lineNum">      63 </span><span class="lineCov">          9 : audio selectionSort(audio a){</span>
+<span class="lineNum">      64 </span><span class="lineCov">          9 :     audio res;</span>
+<span class="lineNum">      65 </span><span class="lineCov">         45 :     for (int i = 0; i &lt; a.size(); ++i) {</span>
+<span class="lineNum">      66 </span><span class="lineCov">         36 :         int min = 0;</span>
+<span class="lineNum">      67 </span><span class="lineCov">         36 :         int posMin = 0;</span>
+<span class="lineNum">      68 </span><span class="lineCov">        180 :         for (int j = 0; j &lt; a.size()-i; ++j) {</span>
+<span class="lineNum">      69 </span><span class="lineCov">        144 :             if (a[j]&lt; min){</span>
+<span class="lineNum">      70 </span><span class="lineCov">          9 :                 min = a[j];</span>
+<span class="lineNum">      71 </span><span class="lineCov">          9 :                 posMin = j;</span>
+<span class="lineNum">      72 </span>            :             }
+<span class="lineNum">      73 </span>            :         }
+<span class="lineNum">      74 </span><span class="lineCov">         36 :         res.push_back(min);</span>
+<span class="lineNum">      75 </span><span class="lineCov">         36 :         a.erase(a.begin() + posMin);</span>
+<span class="lineNum">      76 </span>            :     }
+<span class="lineNum">      77 </span><span class="lineCov">          9 :     return res;</span>
+<span class="lineNum">      78 </span>            : }
+<a name="79"><span class="lineNum">      79 </span>            : </a>
+<span class="lineNum">      80 </span>            : 
+<span class="lineNum">      81 </span><span class="lineCov">          9 : int buscarNoOutlierDerecha(audio a, int i, int percentil95){</span>
+<span class="lineNum">      82 </span><span class="lineCov">          9 :     int noHayNoOutlier = -1;</span>
+<span class="lineNum">      83 </span><span class="lineCov">          9 :     for (int j = i + 1; j &lt; a.size(); ++j) {</span>
+<span class="lineNum">      84 </span><span class="lineCov">          6 :         if (a[j]&lt;percentil95){</span>
+<span class="lineNum">      85 </span><span class="lineCov">          6 :             return j;</span>
+<span class="lineNum">      86 </span>            :         }
+<span class="lineNum">      87 </span>            :     }
+<span class="lineNum">      88 </span><span class="lineCov">          3 :     return noHayNoOutlier;</span>
+<span class="lineNum">      89 </span>            : }
+<a name="90"><span class="lineNum">      90 </span>            : </a>
+<span class="lineNum">      91 </span>            : 
+<span class="lineNum">      92 </span><span class="lineCov">          9 : int buscarNoOutlierIzquierda(audio a, int i, int percentil95){</span>
+<span class="lineNum">      93 </span><span class="lineCov">          9 :     int noHayNoOutlier = -1;</span>
+<span class="lineNum">      94 </span><span class="lineCov">          9 :     for (int j = i -1; j &gt;= 0; j--) {</span>
+<span class="lineNum">      95 </span><span class="lineCov">          6 :         if (a[j]&lt;percentil95){</span>
+<span class="lineNum">      96 </span><span class="lineCov">          6 :             return j;</span>
+<span class="lineNum">      97 </span>            :         }
+<span class="lineNum">      98 </span>            :     }
+<span class="lineNum">      99 </span><span class="lineCov">          3 :     return noHayNoOutlier;</span>
+<span class="lineNum">     100 </span>            : }
+<span class="lineNum">     101 </span>            : 
+<a name="102"><span class="lineNum">     102 </span>            : </a>
+<span class="lineNum">     103 </span>            : 
+<span class="lineNum">     104 </span><span class="lineCov">         41 : bool todasSusFilasEnLaOtraMatriz(vector&lt;vector&lt;int&gt; &gt; mat1, vector&lt;vector&lt;int&gt; &gt; mat2) {</span>
+<span class="lineNum">     105 </span>            :     bool res;
+<span class="lineNum">     106 </span>            :     
+<span class="lineNum">     107 </span><span class="lineCov">         80 :     for (int i = 0; i &lt; mat1.size(); ++i){</span>
+<span class="lineNum">     108 </span><span class="lineCov">         40 :         res = false;</span>
+<span class="lineNum">     109 </span><span class="lineCov">         64 :         for (int j = 0; j &lt; mat2.size(); ++j) {</span>
+<span class="lineNum">     110 </span><span class="lineCov">         63 :             if (vectoresOrdenadosIguales(mat1[i], mat2[j])) {</span>
+<span class="lineNum">     111 </span><span class="lineCov">         39 :                 res = true;</span>
+<span class="lineNum">     112 </span><span class="lineCov">         39 :                 break;</span>
+<span class="lineNum">     113 </span>            :             }
+<span class="lineNum">     114 </span>            :         }
+<span class="lineNum">     115 </span><span class="lineCov">         40 :         if(!res)</span>
+<span class="lineNum">     116 </span><span class="lineCov">          1 :             return false;</span>
+<span class="lineNum">     117 </span>            :     }
+<span class="lineNum">     118 </span>            : 
+<span class="lineNum">     119 </span><span class="lineCov">         40 :     return true;</span>
+<a name="120"><span class="lineNum">     120 </span>            : }</a>
+<span class="lineNum">     121 </span>            : 
+<span class="lineNum">     122 </span><span class="lineCov">         21 : bool matricesIguales(vector&lt;vector&lt;int&gt; &gt; mat1, vector&lt;vector&lt;int&gt; &gt; mat2){</span>
+<span class="lineNum">     123 </span><span class="lineCov">         21 :     if(mat1.size() != mat2.size())</span>
+<span class="lineNum">     124 </span><span class="lineNoCov">          0 :         return false;</span>
+<span class="lineNum">     125 </span>            : 
+<span class="lineNum">     126 </span><span class="lineCov">         42 :     for (int i = 0; i &lt; mat1.size(); ++i) {</span>
+<span class="lineNum">     127 </span><span class="lineCov">         21 :         sort(mat1[i].begin(), mat1[i].end());</span>
+<span class="lineNum">     128 </span><span class="lineCov">         21 :         sort(mat2[i].begin(), mat2[i].end());</span>
+<span class="lineNum">     129 </span>            :     }
+<span class="lineNum">     130 </span>            : 
+<span class="lineNum">     131 </span><span class="lineCov">         21 :     return todasSusFilasEnLaOtraMatriz(mat1,mat2) &amp;&amp; todasSusFilasEnLaOtraMatriz(mat2,mat1);</span>
+<a name="132"><span class="lineNum">     132 </span>            : }</a>
+<span class="lineNum">     133 </span>            : 
+<span class="lineNum">     134 </span><span class="lineCov">         63 : void ASSERT_VECTOR(vector&lt;int&gt; vector1, vector&lt;int&gt; vector2) {</span>
+<span class="lineNum">     135 </span><span class="lineCov">         63 :     sort(vector1.begin(), vector1.end());</span>
+<span class="lineNum">     136 </span><span class="lineCov">         63 :     sort(vector2.begin(), vector2.end());</span>
+<span class="lineNum">     137 </span>            : 
+<span class="lineNum">     138 </span><span class="lineCov">         63 :     ASSERT_TRUE(vectoresOrdenadosIguales(vector1, vector2));</span>
+<a name="139"><span class="lineNum">     139 </span>            : }</a>
+<span class="lineNum">     140 </span>            : 
+<a name="141"><span class="lineNum">     141 </span><span class="lineCov">         21 : void ASSERT_MATRIX(vector&lt;audio&gt; mat1, vector&lt;audio&gt; mat2) {</span></a>
+<span class="lineNum">     142 </span><span class="lineCov">         21 :     ASSERT_TRUE(matricesIguales(mat1, mat2));</span>
+<span class="lineNum">     143 </span><span class="lineCov">          9 : }</span>
+</pre>
+      </td>
+    </tr>
+  </table>
+  <br>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="ruler"><img src="../../../../glass.png" width=3 height=3 alt=""></td></tr>
+    <tr><td class="versionInfo">Generated by: <a href="http://ltp.sourceforge.net/coverage/lcov.php" target="_parent">LCOV version 1.13</a></td></tr>
+  </table>
+  <br>
+
+</body>
+</html>

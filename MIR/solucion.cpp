@@ -6,6 +6,11 @@
 using namespace std;
 
 
+//Para justificar y calcular los tiempos de ejecucion en peor caso
+//Comentare al lado de cada linea el costo de ejecucion donde corresponda
+
+
+
 bool formatoValido(audio a, int canal, int profundidad) {
     if (canal > 0 && profundidad > 0 && a.size() > 0 && (a.size() % canal == 0)) {
         return tieneProfundidadValida(a, profundidad);
@@ -19,23 +24,21 @@ bool formatoValido(audio a, int canal, int profundidad) {
 audio replicar(audio a, int canal, int profundidad) {
     audio b;
     for (int i = 0; i < a.size(); i++) {
-        int j = 0;
-        while (j < canal) {
+        for (int j = 0; j < canal; ++j) {
             b.push_back(a[i]);
-            j++;
         }
     }
     return b;
 }
 
 audio revertirAudio(audio a, int canal, int profundidad) {
-    audio b;
-    for (int i = 0; i < (a.size() / canal); i++) {
-        for (int j = 0; j < canal; ++j) {
+    audio b;        // O(1)
+    for (int i = 0; i < (a.size() / canal); i++) {  //O(n/c) siendo n = a.size() y c = canal
+        for (int j = 0; j < canal; ++j) {           //O(c)
             b.push_back(a[a.size() - canal * (i + 1) + j]);
         }
     }
-    return b;
+    return b;   //Entonces como para cada ejecucion del primer ciclo se ejecuta el segundo queda O(n/c*c) quedando O(n)
 }
 
 void magnitudAbsolutaMaxima(audio a, int canal, int profundidad, vector<int> &maximos, vector<int> &posicionesMaximos) {
@@ -84,7 +87,9 @@ audio redirigir(audio a, int canal, int profundidad) {
 void bajarCalidad(vector<audio> &as, int profundidad1, int profundidad2) {
     for (int i = 0; i < as.size(); ++i) {
         for (int j = 0; j < as[i].size(); ++j) {
-            as[i][j] = (as[i][j]) / (pow(2, profundidad1 - profundidad2));
+            double b = as[i][j];
+            b = floor (b / (pow(2, profundidad1 - profundidad2)));
+            as[i][j] = (int) b;
         }
     }
 }
@@ -184,7 +189,9 @@ void limpiarAudio(audio &a, int profundidad, vector<int> &outliers) {
                 int noOutlierIzquierda = buscarNoOutlierIzquierda(a, outliers[i], percentil95);
                 // Separo en los tres casos especificados
                 if ((noOutlierDerecha >= 0) && noOutlierIzquierda >= 0) {
-                    a[outliers[i]] = (a[noOutlierDerecha] + a[noOutlierIzquierda]) / 2;
+                    double b = (a[noOutlierDerecha] + a[noOutlierIzquierda]);
+                    b = floor (b / 2);
+                    a[outliers[i]] = (int) b;
                 }
                 if ((noOutlierDerecha >= 0) && (noOutlierIzquierda == -1)) {
                     a[outliers[i]] = a[noOutlierDerecha];

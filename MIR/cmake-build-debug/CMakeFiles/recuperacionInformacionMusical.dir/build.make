@@ -226,6 +226,32 @@ CMakeFiles/recuperacionInformacionMusical.dir/tests/limpiarAudio.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/recuperacionInformacionMusical.dir/tests/limpiarAudio.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mzuleta/TPI/MIR/tests/limpiarAudio.cpp -o CMakeFiles/recuperacionInformacionMusical.dir/tests/limpiarAudio.s
 
+CMakeFiles/recuperacionInformacionMusical.dir/Entrada-Salida.o: CMakeFiles/recuperacionInformacionMusical.dir/flags.make
+CMakeFiles/recuperacionInformacionMusical.dir/Entrada-Salida.o: ../Entrada-Salida.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mzuleta/TPI/MIR/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/recuperacionInformacionMusical.dir/Entrada-Salida.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/recuperacionInformacionMusical.dir/Entrada-Salida.o -c /home/mzuleta/TPI/MIR/Entrada-Salida.cpp
+
+CMakeFiles/recuperacionInformacionMusical.dir/Entrada-Salida.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/recuperacionInformacionMusical.dir/Entrada-Salida.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mzuleta/TPI/MIR/Entrada-Salida.cpp > CMakeFiles/recuperacionInformacionMusical.dir/Entrada-Salida.i
+
+CMakeFiles/recuperacionInformacionMusical.dir/Entrada-Salida.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/recuperacionInformacionMusical.dir/Entrada-Salida.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mzuleta/TPI/MIR/Entrada-Salida.cpp -o CMakeFiles/recuperacionInformacionMusical.dir/Entrada-Salida.s
+
+CMakeFiles/recuperacionInformacionMusical.dir/Graficos.o: CMakeFiles/recuperacionInformacionMusical.dir/flags.make
+CMakeFiles/recuperacionInformacionMusical.dir/Graficos.o: ../Graficos.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mzuleta/TPI/MIR/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/recuperacionInformacionMusical.dir/Graficos.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/recuperacionInformacionMusical.dir/Graficos.o -c /home/mzuleta/TPI/MIR/Graficos.cpp
+
+CMakeFiles/recuperacionInformacionMusical.dir/Graficos.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/recuperacionInformacionMusical.dir/Graficos.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mzuleta/TPI/MIR/Graficos.cpp > CMakeFiles/recuperacionInformacionMusical.dir/Graficos.i
+
+CMakeFiles/recuperacionInformacionMusical.dir/Graficos.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/recuperacionInformacionMusical.dir/Graficos.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mzuleta/TPI/MIR/Graficos.cpp -o CMakeFiles/recuperacionInformacionMusical.dir/Graficos.s
+
 # Object files for target recuperacionInformacionMusical
 recuperacionInformacionMusical_OBJECTS = \
 "CMakeFiles/recuperacionInformacionMusical.dir/main.o" \
@@ -240,7 +266,9 @@ recuperacionInformacionMusical_OBJECTS = \
 "CMakeFiles/recuperacionInformacionMusical.dir/tests/audiosSoftYHard.o" \
 "CMakeFiles/recuperacionInformacionMusical.dir/tests/reemplazarSubAudio.o" \
 "CMakeFiles/recuperacionInformacionMusical.dir/tests/maximosTemporales.o" \
-"CMakeFiles/recuperacionInformacionMusical.dir/tests/limpiarAudio.o"
+"CMakeFiles/recuperacionInformacionMusical.dir/tests/limpiarAudio.o" \
+"CMakeFiles/recuperacionInformacionMusical.dir/Entrada-Salida.o" \
+"CMakeFiles/recuperacionInformacionMusical.dir/Graficos.o"
 
 # External object files for target recuperacionInformacionMusical
 recuperacionInformacionMusical_EXTERNAL_OBJECTS =
@@ -258,10 +286,12 @@ recuperacionInformacionMusical_EXTERNAL_OBJECTS =
 ../recuperacionInformacionMusical: CMakeFiles/recuperacionInformacionMusical.dir/tests/reemplazarSubAudio.o
 ../recuperacionInformacionMusical: CMakeFiles/recuperacionInformacionMusical.dir/tests/maximosTemporales.o
 ../recuperacionInformacionMusical: CMakeFiles/recuperacionInformacionMusical.dir/tests/limpiarAudio.o
+../recuperacionInformacionMusical: CMakeFiles/recuperacionInformacionMusical.dir/Entrada-Salida.o
+../recuperacionInformacionMusical: CMakeFiles/recuperacionInformacionMusical.dir/Graficos.o
 ../recuperacionInformacionMusical: CMakeFiles/recuperacionInformacionMusical.dir/build.make
 ../recuperacionInformacionMusical: lib/googletest-master/googlemock/gtest/libgtestd.a
 ../recuperacionInformacionMusical: CMakeFiles/recuperacionInformacionMusical.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mzuleta/TPI/MIR/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable ../recuperacionInformacionMusical"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mzuleta/TPI/MIR/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable ../recuperacionInformacionMusical"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/recuperacionInformacionMusical.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

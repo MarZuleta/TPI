@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/mzuleta/TPI/MIR/Entrada-Salida.cpp" "/home/mzuleta/TPI/MIR/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/Entrada-Salida.o"
+  "/home/mzuleta/TPI/MIR/Graficos.cpp" "/home/mzuleta/TPI/MIR/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/Graficos.o"
   "/home/mzuleta/TPI/MIR/auxiliares.cpp" "/home/mzuleta/TPI/MIR/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/auxiliares.o"
   "/home/mzuleta/TPI/MIR/main.cpp" "/home/mzuleta/TPI/MIR/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/main.o"
   "/home/mzuleta/TPI/MIR/solucion.cpp" "/home/mzuleta/TPI/MIR/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/solucion.o"

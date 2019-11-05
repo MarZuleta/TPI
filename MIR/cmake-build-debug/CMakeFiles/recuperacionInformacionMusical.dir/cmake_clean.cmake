@@ -12,6 +12,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/recuperacionInformacionMusical.dir/tests/reemplazarSubAudio.o"
   "CMakeFiles/recuperacionInformacionMusical.dir/tests/maximosTemporales.o"
   "CMakeFiles/recuperacionInformacionMusical.dir/tests/limpiarAudio.o"
+  "CMakeFiles/recuperacionInformacionMusical.dir/Entrada-Salida.o"
+  "CMakeFiles/recuperacionInformacionMusical.dir/Graficos.o"
   "../recuperacionInformacionMusical.pdb"
   "../recuperacionInformacionMusical"
 )
