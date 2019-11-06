@@ -52,6 +52,7 @@ CMakeFiles/recuperacionInformacionMusical.dir/main.obj: ../lib/googletest-master
 CMakeFiles/recuperacionInformacionMusical.dir/main.obj: ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
 CMakeFiles/recuperacionInformacionMusical.dir/main.obj: ../lib/googletest-master/googletest/include/gtest/internal/gtest-tuple.h
 CMakeFiles/recuperacionInformacionMusical.dir/main.obj: ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
+CMakeFiles/recuperacionInformacionMusical.dir/main.obj: ../Entrada-Salida.h
 CMakeFiles/recuperacionInformacionMusical.dir/main.obj: ../auxiliares.h
 CMakeFiles/recuperacionInformacionMusical.dir/main.obj: ../definiciones.h
 CMakeFiles/recuperacionInformacionMusical.dir/main.obj: ../main.cpp

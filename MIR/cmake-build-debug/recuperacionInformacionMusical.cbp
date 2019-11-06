@@ -317,6 +317,9 @@
 		<Unit filename="C:/Users/martin.000/TPI/MIR/Entrada-Salida.cpp">
 			<Option target="recuperacionInformacionMusical"/>
 		</Unit>
+		<Unit filename="C:/Users/martin.000/TPI/MIR/Entrada-Salida.h">
+			<Option target="recuperacionInformacionMusical"/>
+		</Unit>
 		<Unit filename="C:/Users/martin.000/TPI/MIR/auxiliares.cpp">
 			<Option target="recuperacionInformacionMusical"/>
 		</Unit>

@@ -3,7 +3,7 @@
 #include "solucion.h"
 #include "auxiliares.h"
 #include "definiciones.h"
-
+#include "Entrada-Salida.h"
 
 int main(int argc, char **argv) {
 std::cout << "Implementando TPI!!" << std::endl;

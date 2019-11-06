@@ -7,7 +7,7 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake")
 add_subdirectory(lib/googletest-master)
 include_directories(lib/googletest-master/googletest/include)
 
-set(SOURCE_FILES_TEST main.cpp solucion.h solucion.cpp auxiliares.cpp auxiliares.h definiciones.h tests/formatoValidoTEST.cpp tests/replicarTEST.cpp tests/revertirAudioTEST.cpp tests/magnitudAbsolutaMaximaTest.cpp tests/redirigirTEST.cpp tests/bajarCalidad.cpp tests/audiosSoftYHard.cpp tests/reemplazarSubAudio.cpp tests/maximosTemporales.cpp tests/limpiarAudio.cpp Entrada-Salida.cpp)
+set(SOURCE_FILES_TEST main.cpp solucion.h solucion.cpp auxiliares.cpp auxiliares.h definiciones.h tests/formatoValidoTEST.cpp tests/replicarTEST.cpp tests/revertirAudioTEST.cpp tests/magnitudAbsolutaMaximaTest.cpp tests/redirigirTEST.cpp tests/bajarCalidad.cpp tests/audiosSoftYHard.cpp tests/reemplazarSubAudio.cpp tests/maximosTemporales.cpp tests/limpiarAudio.cpp Entrada-Salida.cpp Entrada-Salida.h)
 
 add_executable(recuperacionInformacionMusical ${SOURCE_FILES_TEST})
 

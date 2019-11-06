@@ -14,15 +14,6 @@ bool vectoresOrdenadosIguales(vector<int> vector1, vector<int> vector2){
 }
 
 
-/*
-void swapParaAudio(int i, int j, audio &a)
-{
-    int aux = a[i];
-    a[i] = a[j];
-    a[j] = aux;
-}
-*/
-
 
 bool tieneProfundidadValida(audio a, int profundidad) {
     int i = 0;
@@ -38,26 +29,26 @@ bool tieneProfundidadValida(audio a, int profundidad) {
 
 
 vector<audio> subAudiosDeLongitud (audio a, int longitud){
-    vector<audio> b;
-    if (longitud > a.size()){
+    vector<audio> b;    //O(1)
+    if (longitud > a.size()){  //O(1)
         return b;
     }
-    int max = longitud -1;
-    int min= 0;
-    audio v;
-    int tamano = a.size()-longitud+1;
-    vector<audio> subAudio (tamano, v);
-    int j = 0;
-    while (max<a.size()){
-        for (int i = min; i <= max; i++) {
-            subAudio[j].push_back(a[i]);
+    int max = longitud -1;  //O(1)
+    int min= 0;   //O(1)
+    audio v;    //O(1)
+    int tamano = a.size()-longitud+1;   //O(1)
+    vector<audio> subAudio (tamano, v); //O(1)
+    int j = 0;      //O(1)
+    while (max<a.size()){ // Este while cicla n - longitud veces siendo n = a.size() es decir en peor caso O(n)
+        for (int i = min; i <= max; i++) {  // Y este for cicla longitud veces, peor caso siendo longitud = 1
+            subAudio[j].push_back(a[i]);    // ya que deberia recorrer toda la lista
         }
         min++;
         max++;
         j++;
     }
     return subAudio;
-}
+}                           // Quedaria entonces O(n^2) ya que recorre n veces algo de O(n)
 
 
 
