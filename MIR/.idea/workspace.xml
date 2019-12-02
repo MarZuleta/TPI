@@ -4,8 +4,8 @@
     <generated>
       <config projectName="recuperacionInformacionMusical" targetName="gmock" />
       <config projectName="recuperacionInformacionMusical" targetName="gtest_main" />
-      <config projectName="recuperacionInformacionMusical" targetName="recuperacionInformacionMusical" />
       <config projectName="recuperacionInformacionMusical" targetName="gtest" />
+      <config projectName="recuperacionInformacionMusical" targetName="recuperacionInformacionMusical" />
       <config projectName="recuperacionInformacionMusical" targetName="gmock_main" />
     </generated>
   </component>
@@ -15,7 +15,56 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="869df3b7-f587-4933-94bc-4058d9c92ec3" name="Default Changelist" comment="" />
+    <list default="true" id="869df3b7-f587-4933-94bc-4058d9c92ec3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auxiliares.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/auxiliares.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auxiliares.h" beforeDir="false" afterPath="$PROJECT_DIR$/auxiliares.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/Entrada-Salida.gcda" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/Entrada-Salida.gcda" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/auxiliares.gcda" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/auxiliares.gcda" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/auxiliares.gcno" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/auxiliares.gcno" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/auxiliares.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/auxiliares.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/main.gcda" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/main.gcda" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/main.gcno" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/main.gcno" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/main.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/main.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/solucion.gcda" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/solucion.gcda" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/solucion.gcno" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/solucion.gcno" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/solucion.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/solucion.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/audiosSoftYHard.gcda" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/audiosSoftYHard.gcda" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/audiosSoftYHard.gcno" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/audiosSoftYHard.gcno" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/audiosSoftYHard.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/audiosSoftYHard.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/bajarCalidad.gcda" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/bajarCalidad.gcda" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/bajarCalidad.gcno" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/bajarCalidad.gcno" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/bajarCalidad.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/bajarCalidad.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/formatoValidoTEST.gcda" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/formatoValidoTEST.gcda" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/formatoValidoTEST.gcno" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/formatoValidoTEST.gcno" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/formatoValidoTEST.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/formatoValidoTEST.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/limpiarAudio.gcda" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/limpiarAudio.gcda" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/limpiarAudio.gcno" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/limpiarAudio.gcno" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/limpiarAudio.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/limpiarAudio.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/magnitudAbsolutaMaximaTest.gcda" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/magnitudAbsolutaMaximaTest.gcda" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/magnitudAbsolutaMaximaTest.gcno" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/magnitudAbsolutaMaximaTest.gcno" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/magnitudAbsolutaMaximaTest.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/magnitudAbsolutaMaximaTest.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/maximosTemporales.gcda" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/maximosTemporales.gcda" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/maximosTemporales.gcno" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/maximosTemporales.gcno" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/maximosTemporales.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/maximosTemporales.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/redirigirTEST.gcda" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/redirigirTEST.gcda" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/redirigirTEST.gcno" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/redirigirTEST.gcno" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/redirigirTEST.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/redirigirTEST.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/reemplazarSubAudio.gcda" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/reemplazarSubAudio.gcda" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/reemplazarSubAudio.gcno" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/reemplazarSubAudio.gcno" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/reemplazarSubAudio.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/reemplazarSubAudio.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/replicarTEST.gcda" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/replicarTEST.gcda" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/replicarTEST.gcno" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/replicarTEST.gcno" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/replicarTEST.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/replicarTEST.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/revertirAudioTEST.gcda" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/revertirAudioTEST.gcda" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/revertirAudioTEST.gcno" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/revertirAudioTEST.gcno" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/revertirAudioTEST.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/revertirAudioTEST.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recuperacionInformacionMusical.exe" beforeDir="false" afterPath="$PROJECT_DIR$/recuperacionInformacionMusical.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solucion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/solucion.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/redirigirTEST.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tests/redirigirTEST.cpp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +78,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="OCFindUsagesOptions" text="false" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectId" id="1SUby928DEhBknByHGNnRVrEAa0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -121,6 +171,11 @@
       <workItem from="1572980531894" duration="444000" />
       <workItem from="1573019573048" duration="4847000" />
       <workItem from="1573025571627" duration="660000" />
+      <workItem from="1573510239236" duration="21000" />
+      <workItem from="1573780751869" duration="619000" />
+      <workItem from="1574645019095" duration="928000" />
+      <workItem from="1575221380848" duration="7954000" />
+      <workItem from="1575303787619" duration="7775000" />
     </task>
     <servers />
   </component>
