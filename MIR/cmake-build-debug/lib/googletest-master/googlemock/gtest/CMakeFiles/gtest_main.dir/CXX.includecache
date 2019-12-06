@@ -278,9 +278,9 @@ cxxabi.h
 acxx_demangle.h
 -
 
-C:/Users/martin.000/TPI/MIR/lib/googletest-master/googletest/src/gtest_main.cc
+/home/martin/TPI/MIR/lib/googletest-master/googletest/src/gtest_main.cc
 stdio.h
 -
 gtest/gtest.h
-C:/Users/martin.000/TPI/MIR/lib/googletest-master/googletest/src/gtest/gtest.h
+/home/martin/TPI/MIR/lib/googletest-master/googletest/src/gtest/gtest.h
 

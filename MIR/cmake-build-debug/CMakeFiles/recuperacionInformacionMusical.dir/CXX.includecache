@@ -278,19 +278,11 @@ cxxabi.h
 acxx_demangle.h
 -
 
-C:/Users/martin.000/TPI/MIR/auxiliares.cpp
-algorithm
--
-gtest/gtest.h
--
-auxiliares.h
-C:/Users/martin.000/TPI/MIR/auxiliares.h
-
-C:/Users/martin.000/TPI/MIR/auxiliares.h
+/home/martin/TPI/MIR/auxiliares.h
 definiciones.h
-C:/Users/martin.000/TPI/MIR/definiciones.h
+/home/martin/TPI/MIR/definiciones.h
 
-C:/Users/martin.000/TPI/MIR/definiciones.h
+/home/martin/TPI/MIR/definiciones.h
 vector
 -
 tuple
@@ -300,15 +292,15 @@ cmath
 string
 -
 
-C:/Users/martin.000/TPI/MIR/solucion.cpp
-solucion.h
-C:/Users/martin.000/TPI/MIR/solucion.h
-auxiliares.h
-C:/Users/martin.000/TPI/MIR/auxiliares.h
-algorithm
--
-
-C:/Users/martin.000/TPI/MIR/solucion.h
+/home/martin/TPI/MIR/solucion.h
 definiciones.h
-C:/Users/martin.000/TPI/MIR/definiciones.h
+/home/martin/TPI/MIR/definiciones.h
+
+/home/martin/TPI/MIR/tests/formatoValidoTEST.cpp
+../solucion.h
+/home/martin/TPI/MIR/solucion.h
+../auxiliares.h
+/home/martin/TPI/MIR/auxiliares.h
+gtest/gtest.h
+/home/martin/TPI/MIR/tests/gtest/gtest.h
 

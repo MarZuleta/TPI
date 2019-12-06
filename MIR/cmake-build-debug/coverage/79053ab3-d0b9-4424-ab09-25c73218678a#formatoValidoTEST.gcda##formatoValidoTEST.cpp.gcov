@@ -1,0 +1,143 @@
+        -:    0:Source:/home/martin/TPI/MIR/tests/formatoValidoTEST.cpp
+        -:    0:Graph:/home/martin/TPI/MIR/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/formatoValidoTEST.gcno
+        -:    0:Data:/home/martin/TPI/MIR/cmake-build-debug/CMakeFiles/recuperacionInformacionMusical.dir/tests/formatoValidoTEST.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include "../solucion.h"
+        -:    2:#include "../auxiliares.h"
+        -:    3:#include "gtest/gtest.h"
+        -:    4:
+        -:    5:using namespace std;
+        -:    6:
+        2:    7:TEST(formatoValidoTEST, longitudErronea){
+        2:    8:    audio a = {1,2,3,4,5};
+        1:    9:    int canal = 3;
+        1:   10:    int profundidad = 4;
+        -:   11:
+       1*:   12:    EXPECT_FALSE(formatoValido(a, canal, profundidad));
+        1:   13:}
+------------------
+_ZN38formatoValidoTEST_longitudErronea_Test8TestBodyEv:
+        1:    7:TEST(formatoValidoTEST, longitudErronea){
+        2:    8:    audio a = {1,2,3,4,5};
+        1:    8-block  0
+    $$$$$:    8-block  1
+    $$$$$:    8-block  2
+        1:    9:    int canal = 3;
+        1:   10:    int profundidad = 4;
+        -:   11:
+       1*:   12:    EXPECT_FALSE(formatoValido(a, canal, profundidad));
+        1:   12-block  0
+        1:   12-block  1
+        1:   12-block  2
+    %%%%%:   12-block  3
+    %%%%%:   12-block  4
+    %%%%%:   12-block  5
+    %%%%%:   12-block  6
+    %%%%%:   12-block  7
+        1:   12-block  8
+    $$$$$:   12-block  9
+    $$$$$:   12-block 10
+    $$$$$:   12-block 11
+    $$$$$:   12-block 12
+    $$$$$:   12-block 13
+    $$$$$:   12-block 14
+    $$$$$:   12-block 15
+    $$$$$:   12-block 16
+    $$$$$:   12-block 17
+        1:   13:}
+------------------
+_ZN38formatoValidoTEST_longitudErronea_TestC2Ev:
+        1:    7:TEST(formatoValidoTEST, longitudErronea){
+        1:    7-block  0
+------------------
+        -:   14:
+        -:   15:
+        -:   16:
+        2:   17:TEST(formatoValidoTEST, profundidadErronea_Test){
+        2:   18:    audio a = {1,2,3,4,5,10};
+        1:   19:    int canal = 3;
+        1:   20:    int profundidad = 4;
+        -:   21:
+       1*:   22:    EXPECT_FALSE(formatoValido(a, canal, profundidad));
+        1:   23:}
+------------------
+_ZN46formatoValidoTEST_profundidadErronea_Test_Test8TestBodyEv:
+        1:   17:TEST(formatoValidoTEST, profundidadErronea_Test){
+        2:   18:    audio a = {1,2,3,4,5,10};
+        1:   18-block  0
+    $$$$$:   18-block  1
+    $$$$$:   18-block  2
+        1:   19:    int canal = 3;
+        1:   20:    int profundidad = 4;
+        -:   21:
+       1*:   22:    EXPECT_FALSE(formatoValido(a, canal, profundidad));
+        1:   22-block  0
+        1:   22-block  1
+        1:   22-block  2
+    %%%%%:   22-block  3
+    %%%%%:   22-block  4
+    %%%%%:   22-block  5
+    %%%%%:   22-block  6
+    %%%%%:   22-block  7
+        1:   22-block  8
+    $$$$$:   22-block  9
+    $$$$$:   22-block 10
+    $$$$$:   22-block 11
+    $$$$$:   22-block 12
+    $$$$$:   22-block 13
+    $$$$$:   22-block 14
+    $$$$$:   22-block 15
+    $$$$$:   22-block 16
+    $$$$$:   22-block 17
+        1:   23:}
+------------------
+_ZN46formatoValidoTEST_profundidadErronea_Test_TestC2Ev:
+        1:   17:TEST(formatoValidoTEST, profundidadErronea_Test){
+        1:   17-block  0
+------------------
+        -:   24:
+        -:   25:
+        2:   26:TEST(formatoValidoTEST, profundidadYcanalValidos_Test){
+        2:   27:    audio a = {1,2,3,4,5,6};
+        1:   28:    int canal = 3;
+        1:   29:    int profundidad = 4;
+        -:   30:
+       1*:   31:    EXPECT_TRUE(formatoValido(a, canal, profundidad));
+        1:   32:}
+------------------
+_ZN52formatoValidoTEST_profundidadYcanalValidos_Test_Test8TestBodyEv:
+        1:   26:TEST(formatoValidoTEST, profundidadYcanalValidos_Test){
+        2:   27:    audio a = {1,2,3,4,5,6};
+        1:   27-block  0
+    $$$$$:   27-block  1
+    $$$$$:   27-block  2
+        1:   28:    int canal = 3;
+        1:   29:    int profundidad = 4;
+        -:   30:
+       1*:   31:    EXPECT_TRUE(formatoValido(a, canal, profundidad));
+        1:   31-block  0
+        1:   31-block  1
+        1:   31-block  2
+    %%%%%:   31-block  3
+    %%%%%:   31-block  4
+    %%%%%:   31-block  5
+    %%%%%:   31-block  6
+    %%%%%:   31-block  7
+        1:   31-block  8
+    $$$$$:   31-block  9
+    $$$$$:   31-block 10
+    $$$$$:   31-block 11
+    $$$$$:   31-block 12
+    $$$$$:   31-block 13
+    $$$$$:   31-block 14
+    $$$$$:   31-block 15
+    $$$$$:   31-block 16
+    $$$$$:   31-block 17
+        1:   32:}
+------------------
+_ZN52formatoValidoTEST_profundidadYcanalValidos_Test_TestC2Ev:
+        1:   26:TEST(formatoValidoTEST, profundidadYcanalValidos_Test){
+        1:   26-block  0
+------------------
+        -:   33:
