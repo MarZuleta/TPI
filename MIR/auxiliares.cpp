@@ -27,16 +27,16 @@ bool tieneProfundidadValida(audio a, int profundidad) {
 }
 
 void revertirBloque(audio a, audio &b, int canal, int i) {
-    for (int j = 0; j < canal; ++j) {           //O(c)
-        b.push_back(a[a.size() - canal * (i + 1) + j]); //O(1)
+    for (int j = 0; j < canal; ++j) {
+        b.push_back(a[a.size() - canal * (i + 1) + j]);
     }
 }
 
 void maximoDelCanal(audio a, int canal, int i, int &max, int &posMax) {
-    for (int j = i; j < a.size(); j += canal) {  // Sea a.size() = n, esto cicla n/c veces
+    for (int j = i; j < a.size(); j += canal) {
         if (abs(a[j]) > max) {
-            max = a[j];     //O(1)
-            posMax = j;     //O(1)
+            max = a[j];
+            posMax = j;
         }
     }
 }
@@ -70,35 +70,33 @@ void ajustarAudio(vector<audio> &as, int i, int profundidad1, int profundidad2) 
 
 
 bool esHardOSoft(vector<audio> as, int longitud, int umbral, int contador, int i) {
-    bool esHard = false; //O(1)
+    bool esHard = false;
     for (int j = 0; j < as[i].size(); ++j) {
-        if (contador == longitud + 1) { //O(1)
-            esHard = true; //O(1)
+        if (contador == longitud + 1) {
+            esHard = true;
         }
-        if (as[i][j] > umbral) { //O(1)
-            contador++; //O(1)
+        if (as[i][j] > umbral) {
+            contador++;
         } else {
-            contador = 0; //O(1)
+            contador = 0;
         }
     }
     return esHard;
 }
 
-//Sea L la longitud del audio mas largo en as, el ciclo pertenece a O(L)
-
 
 
 void buscoAparicion(audio a, audio a1, bool &pertenece, int &indiceDeAparicion) {
-    int contador = 0; //O(1)
-    for (int i = 0; i < a.size() && !pertenece; i++) { //O(a.size())
-        if (a[i] == a1[0]) { //O(1)
-            contador = 1; //O(1)
-            for (int j = 1; j < a1.size() && (a[j + i] == a1[j]); j++) { //O(a1.size())
-                contador++;//O(1)
+    int contador = 0;
+    for (int i = 0; i < a.size() && !pertenece; i++) {
+        if (a[i] == a1[0]) {
+            contador = 1;
+            for (int j = 1; j < a1.size() && (a[j + i] == a1[j]); j++) {
+                contador++;
             }
-            if (contador == a1.size()) {//O(1)
-                pertenece = true;//O(1)
-                indiceDeAparicion = i;//O(1)
+            if (contador == a1.size()) {
+                pertenece = true;
+                indiceDeAparicion = i;
             }
         }
     }
@@ -106,42 +104,40 @@ void buscoAparicion(audio a, audio a1, bool &pertenece, int &indiceDeAparicion) 
 
 
 void reemplazarAparicion(audio &a, audio a1, audio a2, int indiceDeAparicion, bool pertenece) {
-
     audio b;
-    if (pertenece==true) {    //O(1)
-        for (int i = 0; i < indiceDeAparicion; ++i) { //O(a.size() - indiceDeAparicion)
-            b.push_back(a[i]);//O(1)
+    if (pertenece==true) {
+        for (int i = 0; i < indiceDeAparicion; ++i) {
+            b.push_back(a[i]);
         }
-        for (int j = 0; j < a2.size(); ++j) { //O(a2.size())
-            b.push_back(a2[j]);//O(1)
+        for (int j = 0; j < a2.size(); ++j) {
+            b.push_back(a2[j]);
         }
-        for (int k = indiceDeAparicion + a1.size(); k < a.size(); ++k) { //O(a.size() - indiceDeAparicion - a1.size())
-            b.push_back(a[k]);//O(1)
+        for (int k = indiceDeAparicion + a1.size(); k < a.size(); ++k) {
+            b.push_back(a[k]);
         }
-        a = b;//O(1)
+        a = b;
     }
 
 }
 
 
 void conseguirIntervalos(audio a, vector<int> tiempos, vector<pair<int, int> > &intervalos) {
-    for (int j = 0; j < tiempos.size(); ++j) {   //O(m) siendo m = tiempos.size()
-        for (int i = 0; i < a.size(); i += tiempos[j]) {  // Este for cicla n/m veces es decir O(n) (peor caso)
-            pair<int, int> intervalo = {i, i + tiempos[j] - 1}; //O(1)
-            intervalos.push_back(intervalo); //O(1)
+    for (int j = 0; j < tiempos.size(); ++j) {
+        for (int i = 0; i < a.size(); i += tiempos[j]) {
+            pair<int, int> intervalo = {i, i + tiempos[j] - 1};
+            intervalos.push_back(intervalo);
         }
     }
 }
 
 
 void maximosDeLosIntervalos(audio a, vector<int> &maximos, vector<pair<int, int> > &intervalos) {
-    //Y este ciclo calcula los maximos de esos intervalos
-    for (int i = 0; i < intervalos.size(); ++i) {    // Este for cicla una cantidad de veces que es la suma de
-        int max = 0;                                  // (a.size)/t1 + (a.size)/t2 (a.size)/t3 ....
-        // siendo t1 hasta tn los tiempos de la lista de tiempos
+
+    for (int i = 0; i < intervalos.size(); ++i) {
+        int max = 0;
         for (int j = intervalos[i].first;
-             j < a.size() && j <= intervalos[i].second; ++j) { // Y este for cicla t_i siendo esto cada
-            if (a[j] > max) {                                            // tiempo
+             j < a.size() && j <= intervalos[i].second; ++j) {
+            if (a[j] > max) {
                 max = a[j];
 
             }
@@ -152,10 +148,10 @@ void maximosDeLosIntervalos(audio a, vector<int> &maximos, vector<pair<int, int>
 
 
 void buscoOutliers (audio a, vector<int> &outliers, int &percentil95){
-     audio a0 = a;      //O(1)
-    audio audioOrdenado = selectionSort(a0);   //O(n^2) siendo n = a.size()
-    percentil95 = audioOrdenado[(int) (floor(((a.size() * 95) / 100) - 1))];  //O(1)
-    for (int i = 0; i < a.size(); ++i) {      //O(n) siendo n = a.size()
+     audio a0 = a;
+    audio audioOrdenado = selectionSort(a0);
+    percentil95 = audioOrdenado[(int) (floor(((a.size() * 95) / 100) - 1))];
+    for (int i = 0; i < a.size(); ++i) {
         if (a[i] > percentil95) {
             outliers.push_back(i);
         }
@@ -164,20 +160,19 @@ void buscoOutliers (audio a, vector<int> &outliers, int &percentil95){
 }
 
 void reemplazoOutliers (audio &a, vector<int> &outliers, int &percentil95){
-    for (int i = 0; i < outliers.size(); ++i) {   //O(M) siendo M = la cantidad de outliers
-        int noOutlierDerecha = buscarNoOutlierDerecha(a, outliers[i], percentil95);  // O(n-i) n= a.size
-        int noOutlierIzquierda = buscarNoOutlierIzquierda(a, outliers[i], percentil95);//O(i) siendo i la
-        // Separo en los tres casos especificados                                     // posicion del outlier
-        if ((noOutlierDerecha >= 0) && noOutlierIzquierda >= 0) {       //O(1)
-            double b = (a[noOutlierDerecha] + a[noOutlierIzquierda]);  //O(1)
-            b = floor(b / 2);       //O(1)
-            a[outliers[i]] = (int) b;   //O(1)
+    for (int i = 0; i < outliers.size(); ++i) {
+        int noOutlierDerecha = buscarNoOutlierDerecha(a, outliers[i], percentil95);
+        int noOutlierIzquierda = buscarNoOutlierIzquierda(a, outliers[i], percentil95);
+        if ((noOutlierDerecha >= 0) && noOutlierIzquierda >= 0) {
+            double b = (a[noOutlierDerecha] + a[noOutlierIzquierda]);
+            b = floor(b / 2);
+            a[outliers[i]] = (int) b;
         }
-        if ((noOutlierDerecha >= 0) && (noOutlierIzquierda == -1)) {   //O(1)
-            a[outliers[i]] = a[noOutlierDerecha];       //O(1)
+        if ((noOutlierDerecha >= 0) && (noOutlierIzquierda == -1)) {
+            a[outliers[i]] = a[noOutlierDerecha];
         }
-        if ((noOutlierDerecha == -1) && (noOutlierIzquierda >= 0)) {  //O(1)
-            a[outliers[i]] = a[noOutlierIzquierda];     //O(1)
+        if ((noOutlierDerecha == -1) && (noOutlierIzquierda >= 0)) {
+            a[outliers[i]] = a[noOutlierIzquierda];
         }
     }
 }
